@@ -32,6 +32,12 @@
 				}
 			]
 		},
+		"custom": {
+			"fontSizes": {
+				"gigantic": "64px",
+				"colossal": "100px"
+			}
+		},
 		"spacing": {
 			"blockGap": true,
 			"customPadding": true,
@@ -58,7 +64,33 @@
 					"slug": "source-serif-pro"
 				}
 			],
-			"fontSizes": []
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "16px",
+					"slug": "small"
+				},
+				{
+					"name": "Normal",
+					"size": "18px",
+					"slug": "normal"
+				},
+				{
+					"name": "Medium",
+					"size": "28px",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "36px",
+					"slug": "large"
+				},
+				{
+					"name": "Huge",
+					"size": "48px",
+					"slug": "huge"
+				}
+			]
 		},
 		"layout": {
 			"contentSize": "600px",

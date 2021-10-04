@@ -34,8 +34,8 @@
 		},
 		"custom": {
 			"fontSizes": {
-				"gigantic": "64px",
-				"colossal": "100px"
+				"gigantic": "4rem",
+				"colossal": "6.25rem"
 			}
 		},
 		"spacing": {
@@ -67,27 +67,27 @@
 			"fontSizes": [
 				{
 					"name": "Small",
-					"size": "16px",
+					"size": "1rem",
 					"slug": "small"
 				},
 				{
 					"name": "Normal",
-					"size": "18px",
+					"size": "1.125rem",
 					"slug": "normal"
 				},
 				{
 					"name": "Medium",
-					"size": "28px",
+					"size": "1.75rem",
 					"slug": "medium"
 				},
 				{
 					"name": "Large",
-					"size": "36px",
+					"size": "2.25rem",
 					"slug": "large"
 				},
 				{
 					"name": "Huge",
-					"size": "48px",
+					"size": "3rem",
 					"slug": "huge"
 				}
 			]

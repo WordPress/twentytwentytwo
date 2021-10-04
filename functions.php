@@ -24,6 +24,7 @@ endif;
 function twentytwentytwo_scripts() {
 	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'twentytwentytwo-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'twentytwentytwo-fonts', get_template_directory_uri() . '/assets/css/fonts.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 
 /**
@@ -33,7 +34,7 @@ function twentytwentytwo_editor_styles() {
 	// Enqueue editor styles.
 	add_editor_style(
 		array(
-			'https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap',
+			get_stylesheet_directory_uri() . '/assets/css/fonts.css'
 		)
 	);
 }

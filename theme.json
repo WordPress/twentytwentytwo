@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"settings": {
+		"color": {
+			"gradients": [],
+			"link": true,
+			"palette": []
+		},
+		"spacing": {
+			"blockGap": true,
+			"customPadding": true,
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customLineHeight": true,
+			"fontFamilies": [],
+			"fontSizes": []
+		},
+		"layout": {
+			"contentSize": "600px",
+			"wideSize": "1100px"
+		}
+	}
+}

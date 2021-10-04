@@ -11,9 +11,6 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Adding support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
-
-		// Add support for editor styles.
-		add_theme_support( 'editor-styles' );
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;
@@ -25,6 +22,7 @@ function twentytwentytwo_scripts() {
 	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'twentytwentytwo-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
+add_action( 'wp_enqueue_scripts', 'twentytwentytwo_scripts' );
 
 /**
  * Enqueue editor styles.
@@ -38,5 +36,3 @@ function twentytwentytwo_editor_styles() {
 	);
 }
 add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
-
-add_action( 'wp_enqueue_scripts', 'twentytwentytwo_scripts' );

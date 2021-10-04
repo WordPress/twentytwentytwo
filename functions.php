@@ -17,9 +17,6 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
-
-		// Add support for custom units.
-		add_theme_support( 'custom-units' );
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;

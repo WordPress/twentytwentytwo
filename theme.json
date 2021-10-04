@@ -126,6 +126,9 @@
 				}
 			}
 		},
+		"spacing": {
+			"blockGap": "1.25rem"
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-font)"
 		}

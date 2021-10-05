@@ -15,22 +15,39 @@ Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
 
+/*--------------------------------------------------------------
+ >>> TABLE OF CONTENTS:
+ ----------------------------------------------------------------
+
+	0. Fonts
+
+ ----------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*  0. Fonts
+/* -------------------------------------------------------------------------- */
+
+/* 
+ * Fonts can be reworked if this core issue is resolved:
+ * https://github.com/WordPress/wordpress-develop/pull/1573
+ */
+
 @font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 200 900;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2'),
-         url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff') format('woff'),
-         url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf') format('truetype');
+	font-family: 'Source Serif Pro';
+	font-weight: 200 900;
+	font-style: normal;
+	font-stretch: normal;
+	src: url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2'),
+		 url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff') format('woff'),
+		 url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf') format('truetype');
 }
 
 @font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 200 900;
-    font-style: italic;
-    font-stretch: normal;
-    src: url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2'),
-         url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff') format('woff'),
-         url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf') format('truetype');
+	font-family: 'Source Serif Pro';
+	font-weight: 200 900;
+	font-style: italic;
+	font-stretch: normal;
+	src: url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2'),
+		 url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff') format('woff'),
+		 url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf') format('truetype');
 }

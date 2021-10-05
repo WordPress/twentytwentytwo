@@ -115,6 +115,22 @@
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--background)"
 				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontWeight": "300",
+					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
+					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--system-font)",
+					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontWeight": "normal"
+				}
 			}
 		},
 		"color": {

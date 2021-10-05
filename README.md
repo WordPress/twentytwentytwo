@@ -12,8 +12,6 @@ There are several ways to contribute:
 3. Contributing code via [pull requests](https://github.com/WordPress/twentytwentytwo/pulls). Pull requests are preferred when linked to an existing issue.
 
 ## Getting Started
-To view the design, visit this [public Figma file](https://www.figma.com/file/wok5YcSPh1iTLAavNJd5ax/Twenty-Twenty-Two?node-id=624%3A3758).
-
 To get started with development:
 
 1. Set up a WordPress instance, we recommend [wp-env] or [Local](https://localwp.com/) as an alternative to docker.

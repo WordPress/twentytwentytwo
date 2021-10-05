@@ -35,8 +35,8 @@
 		"custom": {
 			"typography": {
 				"font-size": {
-					"gigantic": "4rem",
-					"colossal": "6.25rem"
+					"gigantic": "clamp(3rem, 6vw, 4rem)",
+					"colossal": "clamp(4rem, 8vw, 6.25rem)"
 				},
 				"line-height": {
 					"tiny": 1.15,
@@ -90,12 +90,12 @@
 				},
 				{
 					"name": "Large",
-					"size": "2.25rem",
+					"size": "clamp(1.75rem, 3vw, 2.25rem)",
 					"slug": "large"
 				},
 				{
 					"name": "Huge",
-					"size": "3rem",
+					"size": "clamp(2.5rem, 4vw, 3rem)",
 					"slug": "huge"
 				}
 			]

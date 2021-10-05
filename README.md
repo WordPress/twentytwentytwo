@@ -16,8 +16,8 @@ To view the design, visit this [public Figma file](https://www.figma.com/file/wo
 
 To get started with development:
 
-1. Set up a WordPress instance. Check out WordPress develop or
-2. Install the Gutenberg plugin
+1. Set up a WordPress instance, we recommend [wp-env] or [Local](https://localwp.com/) as an alternative to docker.
+2. Install the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/)
 3. Clone / download this repository into your `/wp-content/themes/` directory
 
 #### Requirements
@@ -29,12 +29,9 @@ To get started with development:
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly. 
 
 #### Resources
-- [Twenty Twenty-Two Design Figma File](https://www.figma.com/file/wok5YcSPh1iTLAavNJd5ax/Twenty-Twenty-Two?node-id=624%3A3758)
+- [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
 
 #### Timeline
 The theme will be released with WordPress 5.9 and follow the key dates / milestones associated with [its development schedule](https://make.wordpress.org/core/5-9). 
-
-## Contributors
-Props go here.

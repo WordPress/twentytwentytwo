@@ -13,25 +13,19 @@
 		"url": "git+https://github.com/WordPress/twentytwentytwo.git"
 	},
 	"homepage": "https://github.com/WordPress/twentytwentytwo#readme",
+	"scripts": {
+		"lint:css": "stylelint **/*.css --fix -i .gitignore"
+	},
 	"devDependencies": {
-		"@wordpress/prettier-config": "^1.0.1",
-		"@wordpress/scripts": "^18.0.1",
-		"@wordpress/stylelint-config": "^19.0.1",
+		"@wordpress/stylelint-config": "^19.1.0",
 		"husky": "^4.3.0",
 		"lint-staged": "^10.5.4",
-		"lodash": "^4.17.21"
+		"lodash": "^4.17.21",
+		"stylelint": "^13.13.1"
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "lint-staged && node pre-commit-hook.js"
+			"pre-commit": "npm run lint:css && node pre-commit-hook.js"
 		}
-	},
-	"lint-staged": {
-		"*.{css}": [
-			"wp-scripts lint-style --fix="
-		]
-	},
-	"dependencies": {
-		"wp-prettier": "^2.0.5"
 	}
 }

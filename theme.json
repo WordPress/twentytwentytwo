@@ -97,6 +97,16 @@
 					"name": "Huge",
 					"size": "clamp(2.5rem, 4vw, 3rem)",
 					"slug": "huge"
+				},
+				{
+					"name": "Gigantic",
+					"size": "clamp(3rem, 6vw, 4rem)",
+					"slug": "gigantic"
+				},
+				{
+					"name": "Colossal",
+					"size": "clamp(4rem, 8vw, 6.25rem)",
+					"slug": "colossal"
 				}
 			]
 		},

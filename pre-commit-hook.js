@@ -14,6 +14,7 @@ const _ = require("lodash");
  */
 const phpcsPath = getPathForCommand("phpcs");
 const phpcbfPath = getPathForCommand("phpcbf");
+const phpStanPath = getPathForCommand("phpstan");
 
 function quotedPath(pathToQuote) {
 	if (pathToQuote.includes(" ")) {
@@ -65,6 +66,13 @@ function phpcbfInstalled() {
 	return false;
 }
 
+function phpStanInstalled() {
+	if (existsSync(phpStanPath)){
+		return true;
+	}
+	return false;
+}
+
 function linterFailure() {
 	console.log(
 		chalk.red("COMMIT ABORTED:"),
@@ -80,6 +88,9 @@ const phpcs = phpcsInstalled();
 
 // determine if PHPCBF is available
 const phpcbf = phpcbfInstalled();
+
+// determine if PHPStan is available
+const phpstan = phpStanInstalled();
 
 // grab a list of all the php files staged to commit
 const phpFiles = parseGitDiffToPathArray(
@@ -147,17 +158,32 @@ if (phpFiles.length && phpcbf) {
 		);
 	}
 
+	if (phpstan) {
+		const stanResult = spawnSync(
+			`${quotedPath(phpStanPath)}`,
+			['analyse', ...phpFiles, '--memory-limit', '56'],
+			{
+				shell: true,
+				stdio: "inherit",
+			}
+		);
+		if (stanResult.status){
+			linterFailure();
+		}
+	}
+
+
 	if (phpcs) {
 		const lintResult = spawnSync(
 			`${quotedPath(phpcsPath)}`,
 			['-p', '-s', '--runtime-set', 'ignore_warnings_on_exit', '1'],
-		{
-			shell: true,
-			stdio: "inherit",
-		}
-	);
+			{
+				shell: true,
+				stdio: "inherit",
+			}
+		);
 
-	if (lintResult.status) {
+		if (lintResult.status) {
 			linterFailure();
 		}
 	}

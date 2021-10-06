@@ -15,6 +15,7 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;
 
+<<<<<<< HEAD
 if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	/**
 	 * Enqueue scripts and styles.
@@ -30,6 +31,16 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	}
 	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 endif;
+=======
+/**
+ * Enqueue scripts and styles.
+ */
+function twentytwentytwo_scripts() {
+	// Enqueue theme stylesheet.
+	wp_enqueue_style( 'twentytwentytwo-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+}
+add_action( 'wp_enqueue_scripts', 'twentytwentytwo_scripts' );
+>>>>>>> Why is it putting spaces between my filepath.
 
 if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	/**

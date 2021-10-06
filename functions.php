@@ -1,6 +1,16 @@
 <?php
+/**
+ * Functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ * @package WordPress
+ * @since 1.0.0
+ */
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
+	/**
+	 * Add theme supports
+	 */
 	function twentytwentytwo_support() {
 
 		// Adding support for featured images.

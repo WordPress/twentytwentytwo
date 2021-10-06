@@ -1,30 +1,31 @@
 {
-	"name": "twentytwentytwo",
-	"version": "0.1.0",
-	"description": "The default theme for 2022",
-	"main": "index.js",
-	"author": "WordPress",
-	"license": "GPL-2.0",
-	"bugs": {
-		"url": "https://github.com/WordPress/twentytwentytwo/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/WordPress/twentytwentytwo.git"
-	},
-	"homepage": "https://github.com/WordPress/twentytwentytwo#readme",
-	"scripts": {
-		"lint:css": "stylelint **/*.css --fix -i .gitignore"
-	},
-	"devDependencies": {
-		"@wordpress/stylelint-config": "^19.1.0",
-		"husky": "^4.3.0",
-		"lodash": "^4.17.21",
-		"stylelint": "^13.13.1"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "npm run lint:css && node pre-commit-hook.js"
-		}
-	}
+  "name": "twentytwentytwo",
+  "version": "0.1.0",
+  "description": "The default theme for 2022",
+  "main": "index.js",
+  "author": "WordPress",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/WordPress/twentytwentytwo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WordPress/twentytwentytwo.git"
+  },
+  "homepage": "https://github.com/WordPress/twentytwentytwo#readme",
+  "scripts": {
+    "lint:css": "stylelint **/*.css --fix -i .gitignore"
+  },
+  "devDependencies": {
+    "@wordpress/stylelint-config": "^19.1.0",
+    "husky": "^4.3.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:css && node pre-commit-hook.js"
+    }
+  }
 }

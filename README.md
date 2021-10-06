@@ -36,8 +36,16 @@ To get started with development:
 
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly. 
 
+To optionally run tests locally, you will also need:
+- [Node.js](https://nodejs.org/en/)
+- [Composer](https://getcomposer.org/)
+
+You can install the test-specific development dependencies by running `npm i && composer install`. A pre-commit hook is used to correct any style standards and report errors. This can be bypassed with committing with the `--no-verify` option passed.
+
 ## Resources
 - [Twenty Twenty-Two Figma Mockups](https://www.figma.com/file/76mfUcaK4QDlrXElk8MK3H/Twenty-Twenty-Two?node-id=10%3A54)
+
+#### Resources
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)

@@ -8,9 +8,9 @@ Twenty Twenty-Two is designed to be the most flexible default theme ever created
 
 ## Contributing
 
-Contributing is not just for developers! There are many oppportunities for non-developers to help with [testing](](#getting-started)), triage, discussion, design, and even building patterns and templates. Please look through [open issues](https://github.com/WordPress/twentytwentytwo/issues), and join in wherever you feel most comfortable. 
-
 If you would like to contribute code, the list of [open issues](https://github.com/WordPress/twentytwentytwo/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/WordPress/twentytwentytwo/pulls) are preferred when linked to an existing issue.
+
+Contributing is not just for developers! There are many oppportunities to help with [testing](](#getting-started)), triage, discussion, design, building patterns and templates, and more. Please look through [open issues](https://github.com/WordPress/twentytwentytwo/issues), and join in wherever you feel most comfortable. 
 
 If you'd like to help with triage, let @jffng and @kjellr know here or in [WordPress.org's slack instance](https://make.wordpress.org/chat/). We'll help you get set up with the ability to add labels to issues and PRs. 
 

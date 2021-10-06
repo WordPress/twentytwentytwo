@@ -1,5 +1,7 @@
 # Twenty Twenty-Two
-The development repository for the default theme that will ship alongside WordPress 5.9. 
+Welcome to the development repository for the default theme that will ship alongside WordPress 5.9. 
+
+<img alt="Flying Bird" src="https://user-images.githubusercontent.com/1202812/136213624-3073a915-2a72-4248-acc1-301c41dea3d4.png">
 
 ## About
 Twenty Twenty-Two is designed to be the most flexible default theme ever created for WordPress. It's built for full site editing first as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through theme.json and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal. 

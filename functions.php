@@ -24,6 +24,8 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 		$theme_version  = wp_get_theme()->get( 'Version' );
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
 		wp_enqueue_style( 'twentytwentytwo-style', get_template_directory_uri() . '/style.css', array(), $version_string );
+		// Add "path" data to the stylesheet to allow inlining it when possible in order to improve perfrormance.
+		wp_style_add_data( 'twentytwentytwo-style', 'path', get_template_directory() . '/style.css' );
 	}
 	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 endif;
@@ -42,3 +44,6 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	}
 	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 endif;
+
+// Opt-in to only load styles for rendered blocks.
+add_filter( 'should_load_separate_core_block_assets', '__return_true' );

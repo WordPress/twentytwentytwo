@@ -1,7 +1,23 @@
 <?php
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
-	function twentytwentytwo_support()  {
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * Note that this function is hooked into the after_setup_theme hook, which
+	 * runs before the init hook. The init hook is too late for some features, such
+	 * as indicating support for post thumbnails.
+	 *
+	 * @since 0.1
+	 *
+	 * @return void
+	 */
+	function twentytwentytwo_support() {
+		/*
+		 * Make theme available for translation.
+		 * Translations can be filed in the /languages/ directory.
+		 */
+		load_theme_textdomain( 'twentytwentytwo', get_template_directory() . '/languages' );
 
 		// Adding support for featured images.
 		add_theme_support( 'post-thumbnails' );

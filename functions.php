@@ -11,6 +11,9 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Adding support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
+
+		// Adding default posts and comments RSS feed links to head.
+		add_theme_support( 'automatic-feed-links' );
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;

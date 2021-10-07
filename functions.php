@@ -15,15 +15,15 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;
 
-if ( ! function_exists( 'twentytwentytwo_scripts' ) ) :
+if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	/**
 	 * Enqueue scripts and styles.
 	 */
-	function twentytwentytwo_scripts() {
+	function twentytwentytwo_styles() {
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 	}
-	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_scripts' );
+	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 endif;
 
 if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :

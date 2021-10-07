@@ -10,7 +10,7 @@
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	/**
 	 * Set up theme defaults and register supports
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_support() {
@@ -46,7 +46,7 @@ endif;
 if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	/**
 	 * Enqueue editor styles.
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_editor_styles() {

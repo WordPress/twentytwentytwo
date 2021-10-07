@@ -98,53 +98,6 @@ const phpFiles = parseGitDiffToPathArray(
 ).filter((file) => file.endsWith(".php"));
 console.log( phpFiles );
 
-<<<<<<< HEAD
-if (phpFiles.length) {
-  phpcbfResult = spawnSync(phpcbfPath, [...phpFiles], {
-    shell: true,
-    stdio: "inherit",
-  });
-
-  if (phpcbfResult && phpcbfResult.status) {
-    execSync(`git add ${phpFiles.join(" ")}`);
-    console.log(
-      chalk.yellow("PHPCS issues detected and automatically fixed via PHPCBF.")
-    );
-  }
-
-  if (phpcs) {
-    const lintResult = spawnSync(
-      `PHPCS=${quotedPath(phpcsPath)} ${quotedPath(phpcsChangedPath)}`,
-      ["--git", ...phpFiles],
-      {
-        shell: true,
-        stdio: "inherit",
-      }
-    );
-
-    if (lintResult.status) {
-      linterFailure();
-    }
-  }
-}
-
-// grab a list of all the js files staged to commit
-const jsFiles = parseGitDiffToPathArray(
-  "git diff --cached --name-only --diff-filter=ACM"
-).filter((file) => file.endsWith(".js"));
-
-if (jsFiles.length) {
-  jsFiles.forEach((file) =>
-    console.log(`Prettier formatting staged file: ${file}`)
-  );
-  execSync(
-    `./node_modules/.bin/prettier --ignore-path .eslintignore --write ${jsFiles.join(
-      " "
-    )}`
-  );
-  execSync(`git add ${jsFiles.join(" ")}`);
-}
-=======
 if (phpFiles.length && phpcbf) {
 	phpcbfResult = spawnSync(phpcbfPath, [...phpFiles], {
 		shell: true,
@@ -188,4 +141,3 @@ if (phpFiles.length && phpcbf) {
 		}
 	}
 }
->>>>>>> Cleanup precommit hook and composer file.

@@ -44,6 +44,8 @@ endif;
 if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	/**
 	 * Enqueue editor styles.
+	 * 
+	 * @return void
 	 */
 	function twentytwentytwo_editor_styles() {
 		wp_add_inline_style( 'wp-block-library', twentytwentytwo_get_font_face_styles() );

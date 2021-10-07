@@ -11,6 +11,15 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Adding support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
+
+		// Switch default core markup to output valid HTML5.
+		add_theme_support(
+			'html5',
+			array(
+				'style',
+				'script',
+			)
+		);
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;

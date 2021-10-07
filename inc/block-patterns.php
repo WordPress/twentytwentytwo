@@ -57,6 +57,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'query-image-grid',
 				'query-large-titles',
 				'query-irregular-grid',
+				'wordpress-credit',
 			);
 
 			foreach ( $block_patterns as $block_pattern ) {

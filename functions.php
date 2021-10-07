@@ -15,7 +15,7 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;
 
-if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
+if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	/**
 	 * Enqueue scripts and styles.
 	 */

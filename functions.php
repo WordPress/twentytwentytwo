@@ -20,10 +20,30 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	 * Enqueue scripts and styles.
 	 */
 	function twentytwentytwo_styles() {
+		// The @font-face styles.
+		$font_face_css = "
+		@font-face{
+			font-family: 'Source Serif Pro';
+			font-weight: 200 900;
+			font-style: normal;
+			font-stretch: normal;
+			src: url('" . get_theme_file_uri( 'assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2' ) . "') format('woff2');
+		}
+
+		@font-face{
+			font-family: 'Source Serif Pro';
+			font-weight: 200 900;
+			font-style: italic;
+			font-stretch: normal;
+			src: url('" . get_theme_file_uri( 'assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2' ) . "') format('woff2');
+		}
+		";
+		// Register theme stylesheet.
+		wp_register_style( 'twentytwentytwo-style', '' );
+		// Add styles inline.
+		wp_add_inline_style( 'twentytwentytwo-style', $font_face_css );
 		// Enqueue theme stylesheet.
-		$theme_version  = wp_get_theme()->get( 'Version' );
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
-		wp_enqueue_style( 'twentytwentytwo-style', get_template_directory_uri() . '/style.css', array(), $version_string );
+		wp_enqueue_style( 'twentytwentytwo-style' );
 	}
 	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 endif;

@@ -4,7 +4,6 @@
  *
  * @since 1.0
  */
-
 if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 	function twentytwentytwo_register_block_patterns() {
 		if ( function_exists( 'register_block_pattern_category' ) ) {

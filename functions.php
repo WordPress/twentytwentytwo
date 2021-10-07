@@ -28,6 +28,7 @@ endif;
 if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	/**
 	 * Enqueue scripts and styles.
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_styles() {

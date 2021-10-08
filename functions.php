@@ -20,8 +20,34 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	 * Enqueue scripts and styles.
 	 */
 	function twentytwentytwo_styles() {
-		// The @font-face styles.
-		$font_face_css = "
+		// Register theme stylesheet.
+		wp_register_style( 'twentytwentytwo-style', '' );
+		// Add styles inline.
+		wp_add_inline_style( 'twentytwentytwo-style', twentytwentytwo_get_font_face_styles() );
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'twentytwentytwo-style' );
+	}
+	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
+endif;
+
+if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
+	/**
+	 * Enqueue editor styles.
+	 */
+	function twentytwentytwo_editor_styles() {
+		wp_add_inline_style( 'wp-block-library', twentytwentytwo_get_font_face_styles() );
+	}
+	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
+endif;
+
+if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
+	/**
+	 * Get font face styles.
+	 *
+	 * @return string
+	 */
+	function twentytwentytwo_get_font_face_styles() {
+		return "
 		@font-face{
 			font-family: 'Source Serif Pro';
 			font-weight: 200 900;
@@ -38,27 +64,5 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 			src: url('" . get_theme_file_uri( 'assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2' ) . "') format('woff2');
 		}
 		";
-		// Register theme stylesheet.
-		wp_register_style( 'twentytwentytwo-style', '' );
-		// Add styles inline.
-		wp_add_inline_style( 'twentytwentytwo-style', $font_face_css );
-		// Enqueue theme stylesheet.
-		wp_enqueue_style( 'twentytwentytwo-style' );
 	}
-	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
-endif;
-
-if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
-	/**
-	 * Enqueue editor styles.
-	 */
-	function twentytwentytwo_editor_styles() {
-		// Enqueue editor styles.
-		add_editor_style(
-			array(
-				get_stylesheet_uri(),
-			)
-		);
-	}
-	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 endif;

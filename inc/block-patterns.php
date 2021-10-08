@@ -22,6 +22,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-text-only-all-caps-with-tagline',
 				'header-logo-navigation',
 				'header-logo-navigation-social',
+				'header-title-navigation-social',
 				'header-logo-navigation-offset-tagline',
 				'header-stacked',
 				'header-large-dark'

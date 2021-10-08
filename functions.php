@@ -25,6 +25,7 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 		// Add styles inline.
 		wp_add_inline_style( 'twentytwentytwo-style', twentytwentytwo_get_font_face_styles() );
 		// Enqueue theme stylesheet.
+		wp_style_add_data( 'twentytwentytwo-style', 'path', get_template_directory() . '/style.css' );
 		wp_enqueue_style( 'twentytwentytwo-style' );
 	}
 	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
@@ -39,6 +40,9 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	}
 	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 endif;
+
+// Opt-in to only load styles for rendered blocks.
+add_filter( 'should_load_separate_core_block_assets', '__return_true' );
 
 if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	/**

@@ -1,0 +1,85 @@
+name: Continuous integration code quality checks
+
+on:
+    pull_request:
+        branches: [trunk]
+    push:
+        branches: [trunk]
+
+jobs:
+    lint:
+        name: Parallel lint
+        runs-on: ubuntu-latest
+
+        steps:
+            # Checkout repository
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            # Setup PHP versions, run checks
+            - name: PHP setup
+              uses: shivammathur/setup-php@v2
+              with:
+                php-version: 7.6
+            - name: Get composer cache directory
+              id: composer-cache
+              run: |
+                echo "::set-output name=dir::$(composer config cache-files-dir)"
+            - name: Cache composer dependencies
+              uses: actions/cache@v1
+              with:
+                path: ${{ steps.composer-cache.outputs.dir }}
+                key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+                restore-keys: |
+                  ${{ runner.os }}-composer-
+            - name: Install composer packages
+              run: composer install --no-progress
+
+            - name: Check for PHP errors
+              run: composer lint
+
+    phpcs_check:
+        name: PHPCS check
+        runs-on: ubuntu-latest
+
+        steps:
+            # Checkout repository
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            # Setup PHP versions, run checks
+            - name: PHP setup
+              uses: shivammathur/setup-php@v2
+              with:
+                php-version: 7.6
+
+            - name: Get composer cache directory
+              id: composer-cache
+              run: |
+                echo "::set-output name=dir::$(composer config cache-files-dir)"
+            - name: Cache composer dependencies
+              uses: actions/cache@v1
+              with:
+                path: ${{ steps.composer-cache.outputs.dir }}
+                key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+                restore-keys: |
+                  ${{ runner.os }}-composer-
+            - name: Install composer packages
+              run: composer install --no-progress
+
+            - name: Check coding standards using PHPCS
+              run: composer standards:check -- --runtime-set testVersion 5.8-
+
+    phpstan:
+        name: PHPStan check
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Install dependencies
+              uses: php-actions/composer@v2
+
+            - name: Analyse code using phpstan
+              uses: dingo-d/phpstan-wp-action@v1

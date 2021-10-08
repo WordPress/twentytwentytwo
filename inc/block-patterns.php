@@ -19,7 +19,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-with-tagline',
 				'header-text-only',
 				'header-text-only-with-tagline',
-				'header-text-only-stacked-tagline'
+				'header-text-only-with-stacked-tagline'
 				'header-text-only-all-caps-with-tagline',
 				'header-logo-navigation',
 				'header-logo-navigation-social',

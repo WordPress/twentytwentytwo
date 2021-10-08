@@ -12,7 +12,7 @@ return array(
 					<!-- wp:navigation {"itemsJustification":"right","isResponsive":true} -->
 					<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 
-					<!-- wp:social-links {"iconColor":"foreground","iconColorValue":"#000000","className":"is-style-logos-only"} -->
+					<!-- wp:social-links {"iconColor":"foreground","iconColorValue":"var(--wp--preset--color--foreground)","className":"is-style-logos-only"} -->
 					<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
 					<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>

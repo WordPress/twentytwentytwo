@@ -70,3 +70,6 @@ if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 		";
 	}
 endif;
+
+// Block patterns
+require get_template_directory() . '/inc/block-patterns.php';

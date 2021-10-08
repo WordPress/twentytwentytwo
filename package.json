@@ -1,0 +1,23 @@
+{
+	"name": "twentytwentytwo",
+	"version": "0.0.1",
+	"description": "Default WP Theme",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"bugs": {
+		"url": "https://core.trac.wordpress.org/"
+	},
+	"homepage": "https://wordpress.org/themes/twentytwentytwo/",
+	"devDependencies": {
+		"@wordpress/stylelint-config": "^19.1.0",
+		"stylelint": "^13.13.1"
+	},
+	"scripts": {
+		"lint:css": "stylelint **/*.css",
+		"lint-fix:css": "stylelint **/*.css --fix"
+	}
+}

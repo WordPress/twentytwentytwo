@@ -17,9 +17,9 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 			$block_patterns = array(
 				'header-default',
 				'header-with-tagline',
+				'header-text-only-with-stacked-tagline',
 				'header-text-only',
 				'header-text-only-with-tagline',
-				'header-text-only-with-stacked-tagline'
 				'header-text-only-all-caps-with-tagline',
 				'header-logo-navigation',
 				'header-logo-navigation-social',

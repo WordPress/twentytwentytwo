@@ -68,18 +68,4 @@ jobs:
         run: composer install --no-progress
 
       - name: Check coding standards using PHPCS
-        run: composer standards:check -- --runtime-set testVersion 5.8-
-
-  phpstan:
-    name: PHPStan check
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Install dependencies
-        uses: php-actions/composer@v2
-
-      - name: Analyse code using phpstan
-        uses: dingo-d/phpstan-wp-action@v1
+        run: composer standards:check -- --runtime-set ignore_warnings_on_exit true --runtime-set testVersion 5.8-

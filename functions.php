@@ -1,7 +1,7 @@
 <?php
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
-	function twentytwentytwo_support()  {
+	function twentytwentytwo_support() {
 
 		// Adding support for featured images.
 		add_theme_support( 'post-thumbnails' );

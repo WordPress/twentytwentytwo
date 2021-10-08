@@ -23,10 +23,6 @@ return array(
 					<!-- wp:column {"width":"380px"} -->
 					<div class="wp-block-column" style="flex-basis:380px"><!-- wp:site-tagline {"fontSize":"small"} /--></div>
 					<!-- /wp:column --></div>
-					<!-- /wp:columns -->
-
-					<!-- wp:paragraph -->
-					<p></p>
-					<!-- /wp:paragraph --></div>
+					<!-- /wp:columns --></div>
 					<!-- /wp:group -->'
 );

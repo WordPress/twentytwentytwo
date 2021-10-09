@@ -13,7 +13,7 @@ The WordPress default theme for 2022.
 
 == Copyright ==
 
-Twenty Twenty-Two WordPress Theme, 2021 WordPress.org
+Twenty Twenty-Two WordPress Theme, 2021-2022 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

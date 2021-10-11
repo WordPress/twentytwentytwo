@@ -38,6 +38,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'query-default',
 				'query-simple-blog',
 				'query-image-grid',
+				'query-irregular-grid',
 			);
 
 			foreach ( $block_patterns as $block_pattern ) {

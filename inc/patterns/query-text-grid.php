@@ -3,7 +3,7 @@
  * Text-based grid of posts block pattern
  */
 return array(
-	'title'      => __( 'ext-based grid of posts', 'twentytwentytwo' ),
+	'title'      => __( 'Text-based grid of posts', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":""},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"inherit":true}} -->

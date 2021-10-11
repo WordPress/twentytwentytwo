@@ -26,7 +26,11 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-title-navigation-social',
 				'header-logo-navigation-offset-tagline',
 				'header-stacked',
-				'header-large-dark'
+				'header-large-dark',
+				'header-centered-logo',
+				'header-centered-logo-in-navigation',
+				'header-centered-title-navigation-social',
+				'header-title-and-button'
 			);
 
 			foreach ( $block_patterns as $block_pattern ) {

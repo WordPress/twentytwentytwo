@@ -6,7 +6,8 @@ return array(
 	'title'      => __( 'Footer with title, tagline, and social links', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-footers' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
+					<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:group -->
 					<div class="wp-block-group"><!-- wp:site-title {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}},"typography":{"textTransform":"uppercase"}}} /-->
 
@@ -20,5 +21,6 @@ return array(
 
 					<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
 					<!-- /wp:social-links --></div>
+					<!-- /wp:group --></div>
 					<!-- /wp:group -->',
 );

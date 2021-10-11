@@ -1,9 +1,9 @@
 <?php
 /**
- * Footer with title, tagline, and social links
+ * Footer with navigation and copyright
  */
 return array(
-	'title'      => __( 'Footer with title, tagline, and social links (Dark)', 'twentytwentytwo' ),
+	'title'      => __( 'Footer with navigation and copyright', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-footers' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}}} -->

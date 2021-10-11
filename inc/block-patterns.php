@@ -12,6 +12,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'twentytwentytwo-headers',
 				array( 'label' => __( 'Twenty Twenty-Two Headers', 'twentytwentytwo' ) )
 			);
+			register_block_pattern_category(
+				'twentytwentytwo-query',
+				array( 'label' => __( 'Twenty Twenty-Two Posts', 'twentytwentytwo' ) )
+			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {
 			$block_patterns = array(
@@ -31,6 +35,8 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-centered-logo-in-navigation',
 				'header-centered-title-navigation-social',
 				'header-title-and-button',
+				'query-default',
+				'query-image-grid',
 			);
 
 			foreach ( $block_patterns as $block_pattern ) {

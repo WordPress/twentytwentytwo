@@ -7,7 +7,7 @@ return array(
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true}} -->
-					<div class="wp-block-query"><!-- wp:post-template {"align":"wide"} -->
+					<div class="wp-block-query"><!-- wp:post-template -->
 					<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"200px"} /-->
 
 					<!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -17,7 +17,7 @@ return array(
 					<!-- /wp:group -->
 					<!-- /wp:post-template -->
 
-					<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
+					<!-- wp:separator {"className":"is-style-wide"} -->
 					<hr class="wp-block-separator alignwide is-style-wide"/>
 					<!-- /wp:separator -->
 

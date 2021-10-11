@@ -1,4 +1,4 @@
-name: Continuous integration code quality checks
+name: Code Quality - PHP
 
 on:
   pull_request:

@@ -1,4 +1,4 @@
-name: Code Quality - Stylelint
+name: Code Quality - CSS
 
 on:
   pull_request:

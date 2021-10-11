@@ -36,6 +36,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-centered-title-navigation-social',
 				'header-title-and-button',
 				'query-default',
+				'query-simple-blog',
 				'query-image-grid',
 			);
 

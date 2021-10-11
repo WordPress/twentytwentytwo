@@ -1,9 +1,9 @@
 <?php
 /**
- * Default Posts List block pattern
+ * Default posts block pattern
  */
 return array(
-	'title'      => __( 'Default posts list', 'twentytwentytwo' ),
+	'title'      => __( 'Default posts', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":""},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"inherit":true}} -->

@@ -1,9 +1,9 @@
 <?php
 /**
- * Default Posts List block pattern
+ * Irregular grid of posts block pattern
  */
 return array(
-	'title'      => __( 'Default posts list', 'twentytwentytwo' ),
+	'title'      => __( 'Irregular grid of posts', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:group {"align":"wide"} -->

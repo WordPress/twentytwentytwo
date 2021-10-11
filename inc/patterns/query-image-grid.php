@@ -1,9 +1,9 @@
 <?php
 /**
- * Image grid Posts List block pattern
+ * Image grid posts block pattern
  */
 return array(
-	'title'      => __( 'Image grid posts list', 'twentytwentytwo' ),
+	'title'      => __( 'Image grid posts', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true}} -->

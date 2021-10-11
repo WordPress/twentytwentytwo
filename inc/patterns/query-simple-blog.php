@@ -1,9 +1,9 @@
 <?php
 /**
- * Simple blog posts list block pattern
+ * Simple blog posts block pattern
  */
 return array(
-	'title'      => __( 'Simple blog posts list', 'twentytwentytwo' ),
+	'title'      => __( 'Simple blog posts', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false,"displayLayout":{"type":"list","columns":3},"align":"wide","layout":{"inherit":true}} -->

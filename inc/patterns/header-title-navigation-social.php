@@ -3,10 +3,10 @@
  * Title, Navigation, and Social Links Header block pattern
  */
 return array(
-	'title'       => __( 'Title, Navigation, and Social Links Header', 'twentytwentytwo' ),
-	'categories'  => array( 'twentytwentytwo-headers' ),
+	'title'      => __( 'Title, Navigation, and Social Links Header', 'twentytwentytwo' ),
+	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
-	'content'     => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group alignwide" style="padding-top:max(1.25rem, 5vw);padding-bottom:8rem"><!-- wp:site-title {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} /-->
 
 					<!-- wp:navigation {"itemsJustification":"right","isResponsive":true} -->
@@ -18,5 +18,5 @@ return array(
 					<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
 					<!-- /wp:social-links -->
 					<!-- /wp:navigation --></div>
-					<!-- /wp:group -->'
+					<!-- /wp:group -->',
 );

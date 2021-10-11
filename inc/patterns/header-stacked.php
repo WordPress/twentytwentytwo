@@ -3,10 +3,10 @@
  * Logo and Navigation Header block pattern
  */
 return array(
-	'title'       => __( 'Logo and Navigation Header', 'twentytwentytwo' ),
-	'categories'  => array( 'twentytwentytwo-headers' ),
+	'title'      => __( 'Logo and Navigation Header', 'twentytwentytwo' ),
+	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
-	'content'     => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}}} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}}} -->
 					<div class="wp-block-group alignwide" style="padding-top:max(1.25rem, 5vw);padding-bottom:8rem"><!-- wp:site-logo {"align":"center","width":128} /-->
 
 					<!-- wp:spacer {"height":10} -->
@@ -22,5 +22,5 @@ return array(
 					<!-- wp:navigation {"itemsJustification":"center","isResponsive":true} -->
 					<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 					<!-- /wp:navigation --></div>
-					<!-- /wp:group -->'
+					<!-- /wp:group -->',
 );

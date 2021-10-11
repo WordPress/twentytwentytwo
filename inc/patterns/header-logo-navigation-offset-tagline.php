@@ -3,10 +3,10 @@
  * Logo, Navigation, and offset Tagline Header block pattern
  */
 return array(
-	'title'       => __( 'Logo, Navigation, and offset Tagline Header', 'twentytwentytwo' ),
-	'categories'  => array( 'twentytwentytwo-headers' ),
+	'title'      => __( 'Logo, Navigation, and offset Tagline Header', 'twentytwentytwo' ),
+	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
-	'content'     => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem"}}}} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem"}}}} -->
 					<div class="wp-block-group alignwide" style="padding-bottom:8rem"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group alignwide" style="padding-top:max(1.25rem, 5vw)"><!-- wp:site-logo {"width":64} /-->
 
@@ -24,5 +24,5 @@ return array(
 					<div class="wp-block-column" style="flex-basis:380px"><!-- wp:site-tagline {"fontSize":"small"} /--></div>
 					<!-- /wp:column --></div>
 					<!-- /wp:columns --></div>
-					<!-- /wp:group -->'
+					<!-- /wp:group -->',
 );

@@ -3,10 +3,10 @@
  * Centered title with Navigation and Social Links Header block pattern
  */
 return array(
-	'title'       => __( 'Centered title with Navigation and Social Links Header', 'twentytwentytwo' ),
-	'categories'  => array( 'twentytwentytwo-headers' ),
+	'title'      => __( 'Centered title with Navigation and Social Links Header', 'twentytwentytwo' ),
+	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
-	'content'     => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}}} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}}} -->
 					<div class="wp-block-group alignwide" style="padding-top:max(1.25rem, 5vw);padding-bottom:8rem"><!-- wp:columns {"verticalAlignment":"center"} -->
 					<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:navigation {"itemsJustification":"left","isResponsive":true} -->
@@ -26,5 +26,5 @@ return array(
 					<!-- /wp:social-links --></div>
 					<!-- /wp:column --></div>
 					<!-- /wp:columns --></div>
-					<!-- /wp:group -->'
+					<!-- /wp:group -->',
 );

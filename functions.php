@@ -1,7 +1,7 @@
 <?php
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
-	function twentytwentytwo_support()  {
+	function twentytwentytwo_support() {
 
 		// Adding support for featured images.
 		add_theme_support( 'post-thumbnails' );
@@ -71,5 +71,5 @@ if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	}
 endif;
 
-// Block patterns
+// Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';

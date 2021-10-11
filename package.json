@@ -1,0 +1,23 @@
+{
+	"name": "twentytwentytwo",
+	"version": "0.1.0",
+	"description": "The default theme for 2022",
+	"main": "index.js",
+	"author": "WordPress",
+	"license": "GPL-2.0-or-later",
+	"bugs": {
+		"url": "https://github.com/WordPress/twentytwentytwo/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WordPress/twentytwentytwo.git"
+	},
+	"homepage": "https://github.com/WordPress/twentytwentytwo#readme",
+	"devDependencies": {
+		"@wordpress/stylelint-config": "^19.1.0",
+		"stylelint": "^13.13.1"
+	},
+	"scripts": {
+		"lint:css": "stylelint **/*.css --fix -i .gitignore"
+	}
+}

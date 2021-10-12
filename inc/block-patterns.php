@@ -19,6 +19,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'twentytwentytwo-query',
 				array( 'label' => __( 'Twenty Twenty-Two Posts', 'twentytwentytwo' ) )
 			);
+			register_block_pattern_category(
+				'twentytwentytwo-i18n',
+				array( 'label' => __( 'Twenty Twenty-Two i18n', 'twentytwentytwo' ) )
+			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {
 			$block_patterns = array(

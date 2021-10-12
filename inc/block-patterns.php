@@ -25,6 +25,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'footer-logo',
 				'footer-navigation',
 				'footer-title-tagline-social',
+				'footer-title-tagline-social-dark',
 				'footer-social-copyright',
 				'footer-navigation-copyright',
 				'footer-about-title-logo',

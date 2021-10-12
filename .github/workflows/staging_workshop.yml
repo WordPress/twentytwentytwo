@@ -1,4 +1,4 @@
-name: TwentyTwentyTwo Staging Workshop Deploy
+name: Deploy to Test Site
 
 on:
   # Triggers the workflow only for the trunk branch

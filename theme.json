@@ -195,7 +195,8 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "1.5rem"
+			"blockGap": "1.5rem",
+			"padding": "max(1.25rem, 5vw)"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-font)",

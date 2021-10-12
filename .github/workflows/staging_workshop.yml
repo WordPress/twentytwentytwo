@@ -17,7 +17,7 @@ jobs:
       - name: Deploy-Theme
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: sftp://sftp.pressable.com:22/htdocs/wp-content/themes/
+          ftp-server: sftp://sftp.pressable.com:22/htdocs/wp-content/themes/twentytwentytwo/
           ftp-username: ${{ secrets.STAGING_USER }}
           ftp-password: ${{ secrets.STAGING_PASSWORD }}
           git-ftp-args: --insecure

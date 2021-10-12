@@ -12,7 +12,6 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'twentytwentytwo-footers',
 				array( 'label' => __( 'Twenty Twenty-Two Footers', 'twentytwentytwo' ) )
 			);
-
 			register_block_pattern_category(
 				'twentytwentytwo-headers',
 				array( 'label' => __( 'Twenty Twenty-Two Headers', 'twentytwentytwo' ) )

@@ -73,3 +73,22 @@ endif;
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+/**
+ * TEMPORARY
+ * Adds DM Sans Font
+ */
+function twentytwentytwo_add_dm_sans_font() {
+	add_editor_style( '//fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700' );
+}
+add_action( 'admin_init', 'twentytwentytwo_add_dm_sans_font' );
+
+/**
+ * TEMPORARY
+ * Enqueue DM Sans Font
+ */
+function twentytwentytwo_enqueue_dm_sans_font() {
+	// Enqueue Google fonts
+	wp_enqueue_style( 'twentytwentytwo-dm-sans', '//fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700', array(), null );
+}
+add_action( 'wp_enqueue_scripts', 'twentytwentytwo_enqueue_dm_sans_font' );

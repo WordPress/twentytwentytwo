@@ -16,16 +16,6 @@
 					"name": "Background"
 				},
 				{
-					"slug": "primary",
-					"color": "#4871D0",
-					"name": "Primary"
-				},
-				{
-					"slug": "secondary",
-					"color": "#4871D0",
-					"name": "Secondary"
-				},
-				{
 					"slug": "tertiary",
 					"color": "#ffffff",
 					"name": "Tertiary"
@@ -125,7 +115,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
+					"background": "var(--wp--preset--color--foreground)",
 					"text": "var(--wp--preset--color--background)"
 				}
 			},

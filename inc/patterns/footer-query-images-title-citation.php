@@ -27,7 +27,7 @@ return array(
 					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:site-title /-->
 
 					<!-- wp:paragraph {"align":"right"} -->
-					<p class="has-text-align-right">' . esc_html__( 'Proudly powered by ', 'twentytwentytwo' ) . '<a href="' . esc_url( 'https://wordpress.org' ) . '" rel="nofollow">WordPress</a></p>
+					<p class="has-text-align-right">' . esc_html__( 'Proudly powered by ', 'twentytwentytwo' ) . '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentytwo' ) ) . '" rel="nofollow">WordPress</a></p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',

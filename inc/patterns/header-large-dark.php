@@ -14,7 +14,7 @@ return array(
 					<!-- wp:site-title {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} /--></div>
 					<!-- /wp:group -->
 
-					<!-- wp:navigation {"itemsJustification":"right"} -->
+					<!-- wp:navigation {"itemsJustification":"right","isResponsive":true} -->
 					<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 					<!-- /wp:navigation --></div>
 					<!-- /wp:group -->

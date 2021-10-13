@@ -6,7 +6,7 @@ return array(
 	'title'      => __( 'Page layout with image, text and video', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"72px"}}} -->
-	<h1 class="alignwide" style="font-size:72px">' . wp_kses_post( __('<em>Warble</em>, a film about <br>hobbyist bird watchers.', 'twentytwentytwo') ) . '</h1>
+	<h1 class="alignwide" style="font-size:72px">' . wp_kses_post( __( '<em>Warble</em>, a film about <br>hobbyist bird watchers.', 'twentytwentytwo' ) ) . '</h1>
 	<!-- /wp:heading -->
 	
 	<!-- wp:spacer {"height":50} -->
@@ -19,7 +19,7 @@ return array(
 	<!-- /wp:heading -->
 	
 	<!-- wp:paragraph -->
-	<p>' . wp_kses_post( __('May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH', 'twentytwentytwo') ) . '</p>
+	<p>' . wp_kses_post( __( 'May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH', 'twentytwentytwo' ) ) . '</p>
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:spacer {"height":50} -->

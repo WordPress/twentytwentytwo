@@ -6,7 +6,7 @@ return array(
 	'title'      => __( 'Page layout with two columns', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"200px","lineHeight":"1","fontWeight":"200"}}} -->
-	<h1 class="alignwide" style="font-size:200px;font-weight:200;line-height:1">' . wp_kses_post( __('<em>Goldfinch </em><br><em>&amp; Sparrow</em>', 'twentytwentytwo') ) . '</h1>
+	<h1 class="alignwide" style="font-size:200px;font-weight:200;line-height:1">' . wp_kses_post( __( '<em>Goldfinch </em><br><em>&amp; Sparrow</em>', 'twentytwentytwo' ) ) . '</h1>
 	<!-- /wp:heading -->
 	
 	<!-- wp:spacer {"height":50} -->
@@ -32,7 +32,7 @@ return array(
 	<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:paragraph -->
-	<p>' . wp_kses_post( __('Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href="#">Eagle Beagle</a> and <a href="#">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href="#">I definitely recommend this tea</a>. It’s my favorite.', 'twentytwentytwo') ) . '</p>
+	<p>' . wp_kses_post( __( 'Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href="#">Eagle Beagle</a> and <a href="#">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href="#">I definitely recommend this tea</a>. It’s my favorite.', 'twentytwentytwo' ) ) . '</p>
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:column -->
 	

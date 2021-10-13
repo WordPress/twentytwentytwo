@@ -5,10 +5,12 @@
 return array(
 	'title'      => __( 'Page layout with two columns', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
-	'content'    => '<!-- wp:post-title {"level":1,"align":"wide","style":{"typography":{"fontSize":"200px","lineHeight":"1","fontStyle":"normal","fontWeight":"200"}}} /-->
-
-	<!-- wp:spacer -->
-	<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+	'content'    => '<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"200px","lineHeight":"1","fontWeight":"200"}}} -->
+	<h1 class="alignwide" style="font-size:200px;font-weight:200;line-height:1">' . wp_kses_post( __('<em>Goldfinch </em><br><em>&amp; Sparrow</em>', 'twentytwentytwo') ) . '</h1>
+	<!-- /wp:heading -->
+	
+	<!-- wp:spacer {"height":50} -->
+	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	
 	<!-- wp:group {"align":"wide","layout":{"inherit":false}} -->
@@ -22,11 +24,7 @@ return array(
 	<!-- wp:column {"verticalAlignment":"center","width":"80%"} -->
 	<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:80%"><!-- wp:separator {"className":"is-style-wide"} -->
 	<hr class="wp-block-separator is-style-wide"/>
-	<!-- /wp:separator -->
-	
-	<!-- wp:paragraph -->
-	<p></p>
-	<!-- /wp:paragraph --></div>
+	<!-- /wp:separator --></div>
 	<!-- /wp:column --></div>
 	<!-- /wp:columns --></div>
 	<!-- /wp:group -->
@@ -69,9 +67,5 @@ return array(
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:latest-posts /--></div>
 	<!-- /wp:column --></div>
-	<!-- /wp:columns -->
-	
-	<!-- wp:spacer -->
-	<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-	<!-- /wp:spacer -->',
+	<!-- /wp:columns -->',
 );

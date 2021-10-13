@@ -52,6 +52,22 @@ if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	 */
 	function twentytwentytwo_get_font_face_styles() {
 		return "
+		@font-face{
+			font-family: 'Source Serif Pro';
+			font-weight: 200 900;
+			font-style: normal;
+			font-stretch: normal;
+			src: url('" . get_theme_file_uri( 'assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2' ) . "') format('woff2');
+		}
+
+		@font-face{
+			font-family: 'Source Serif Pro';
+			font-weight: 200 900;
+			font-style: italic;
+			font-stretch: normal;
+			src: url('" . get_theme_file_uri( 'assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2' ) . "') format('woff2');
+		}
+		
 		/* latin-ext */
 		@font-face {
 		  font-family: 'DM Sans';

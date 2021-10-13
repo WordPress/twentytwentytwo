@@ -125,11 +125,6 @@ require get_template_directory() . '/inc/block-patterns.php';
 
 /**
  * TEMPORARY
- * Adds DM Sans Font
- */
-
-/**
- * TEMPORARY
  * Enqueue DM Sans Font
  */
 function twentytwentytwo_enqueue_dm_sans_font() {

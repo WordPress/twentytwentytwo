@@ -16,6 +16,16 @@
 					"name": "Background"
 				},
 				{
+					"slug": "primary",
+					"color": "#385BAD",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#3C4049",
+					"name": "Secondary"
+				},
+				{
 					"slug": "tertiary",
 					"color": "#ffffff",
 					"name": "Tertiary"

@@ -43,6 +43,9 @@
 					"small": 1.2,
 					"medium": 1.4,
 					"normal": 1.6
+				},
+				"weight": {
+					"light": 300
 				}
 			}
 		},
@@ -129,7 +132,8 @@
 					"fontFamily": "var(--wp--preset--font-family--system-font)",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
 					"fontSize": "var(--wp--preset--font-size--normal)",
-					"fontWeight": "normal"
+					"fontWeight": "400",
+					"fontStyle": "italic"
 				}
 			}
 		},

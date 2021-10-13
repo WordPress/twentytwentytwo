@@ -12,7 +12,7 @@
 				},
 				{
 					"slug": "background",
-					"color": "#ffffff",
+					"color": "#FCF5ED",
 					"name": "Background"
 				},
 				{
@@ -27,7 +27,7 @@
 				},
 				{
 					"slug": "tertiary",
-					"color": "#FCF5ED",
+					"color": "#ffffff",
 					"name": "Tertiary"
 				}
 			],
@@ -35,7 +35,7 @@
 				{
 					"colors": [
 						"#4871D0",
-						"#ffffff"
+						"#FCF5ED"
 					],
 					"slug": "default-filter",
 					"name": "Default filter"
@@ -53,6 +53,9 @@
 					"small": 1.2,
 					"medium": 1.4,
 					"normal": 1.6
+				},
+				"weight": {
+					"light": 700
 				}
 			}
 		},
@@ -90,7 +93,7 @@
 				},
 				{
 					"name": "Normal",
-					"size": "1.125rem",
+					"size": "1.25rem",
 					"slug": "normal"
 				},
 				{
@@ -126,13 +129,19 @@
 					"text": "var(--wp--preset--color--background)"
 				}
 			},
+			"core/post-date": {
+				"typography": {
+					"fontStyle": "italic"
+				}
+			},
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
-					"fontWeight": "300",
+					"fontWeight": "700",
 					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
-				}
+				},
+				"textAlign":"center"
 			},
 			"core/image": {
 				"filter": {
@@ -142,6 +151,11 @@
 			"core/post-featured-image": {
 				"filter": {
 					"duotone": "var(--wp--preset--duotone--default-filter)"
+				},
+				"spacing": {
+					"padding": {
+						"top": "1em"
+					}
 				}
 			},
 			"core/site-logo": {
@@ -154,7 +168,7 @@
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"lineHeight": "var(--wp--custom--typography--line-height--normal)",
 					"fontSize": "var(--wp--preset--font-size--normal)",
-					"fontWeight": "normal",
+					"fontStyle": "normal",
 					"textTransform": "uppercase"
 				}
 			},
@@ -221,7 +235,7 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "3rem"
+			"blockGap": "1rem"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--dm-sans)",

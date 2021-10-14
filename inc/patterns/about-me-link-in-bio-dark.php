@@ -5,7 +5,7 @@
 return array(
 	'title'      => __( 'About Me - Link in Bio - Dark', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-about-me' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"10rem","right":"0rem","bottom":"10rem","left":"0rem"}}},"backgroundColor":"primary","textColor":"background","layout":{"wideSize":"1000px","contentSize":"480px"}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"10rem","right":"0rem","bottom":"10rem","left":"0rem"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":true,"contentSize":"480px"}} -->
 					<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:10rem;padding-right:0rem;padding-bottom:10rem;padding-left:0rem"><!-- wp:group -->
 					<div class="wp-block-group">
 

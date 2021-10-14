@@ -6,7 +6,7 @@ return array(
 	'title'      => __( 'Blog footer', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-footers' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"}}},"layout":{"wideSize":"1000px"}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:8rem;padding-bottom:8rem"><!-- wp:columns -->
 					<div class="wp-block-columns"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph -->

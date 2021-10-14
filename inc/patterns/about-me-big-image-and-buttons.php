@@ -11,7 +11,7 @@ return array(
 					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-flying.jpg" alt="" /></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"wideSize":"1000px"}} -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:buttons {"contentJustification":"space-between"} -->
 					<div class="wp-block-buttons is-content-justification-space-between"><!-- wp:button {"width":25} -->
 					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'Purchase my work', 'twentytwentytwo' ) . '</a></div>

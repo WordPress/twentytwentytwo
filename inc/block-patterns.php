@@ -22,7 +22,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 			);
 			register_block_pattern_category(
 				'twentytwentytwo-about-me',
-				array( 'label' => __( 'Twenty Twenty-Two: About me', 'twentytwentytwo' ) )
+				array( 'label' => __( 'Twenty Twenty-Two: About Me', 'twentytwentytwo' ) )
 			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {

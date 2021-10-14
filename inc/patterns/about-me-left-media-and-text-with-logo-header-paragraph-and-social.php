@@ -5,16 +5,20 @@
 return array(
 	'title'      => __( 'About Me - Left Media & Text with Logo, Header, Paragraph, and Social', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-about-me' ),
-	'content'    => '<!-- wp:media-text {"align":"full","mediaLink":"' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird.jpg","mediaType":"image","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background"} -->
-					<div class="wp-block-media-text alignfull is-stacked-on-mobile has-background-color has-foreground-background-color has-text-color has-background has-link-color"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:site-logo {"width":60} /-->
+	'content'    => '<!-- wp:media-text {"align":"full","mediaType":"image","imageFill":true,"focalPoint":{"x":"0.63","y":"0.16"},"backgroundColor":"foreground","className":"alignfull is-image-fill has-background-color has-text-color has-background has-link-color"} -->
+					<div class="wp-block-media-text alignfull is-stacked-on-mobile is-image-fill has-background-color has-text-color has-background has-link-color has-foreground-background-color has-background"><figure class="wp-block-media-text__media" style="background-image:url(' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird.jpg);background-position:63% 16%"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:spacer {"height":32} -->
+					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
+
+					<!-- wp:site-logo {"width":60} /-->
 
 					<!-- wp:spacer {"height":380} -->
 					<div style="height:380px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:group {"style":{"spacing":{"padding":{"right":"8rem"}}}} -->
-					<div class="wp-block-group" style="padding-right:8rem"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
-					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . __( 'Doug<br>Stilton', 'twentytwentytwo' ) . '</em></h2>
+					<!-- wp:group {"style":{"spacing":{"padding":{"right":"min(8rem, 5vw)"}}}} -->
+					<div class="wp-block-group" style="padding-right:min(8rem, 5vw)"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
+					<h2 id="doug-stilton-1" style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . esc_html__( 'Doug', 'twentytwentytwo' ) . '<br>' . esc_html__( 'Stilton', 'twentytwentytwo' ) . '</em></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.6"}}} -->
@@ -25,13 +29,17 @@ return array(
 					<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:social-links {"iconColor":"background","iconColorValue":"#ffffff","iconBackgroundColor":"foreground","iconBackgroundColorValue":"#000000"} -->
-					<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"https://wordpress.org/","service":"wordpress"} /-->
+					<!-- wp:social-links {"iconColor":"background","iconColorValue":"var(--wp--preset--color--background)","iconBackgroundColor":"foreground","iconBackgroundColorValue":"var(--wp--preset--color--foreground)"} -->
+					<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
-					<!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
+					<!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
-					<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /--></ul>
+					<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
 					<!-- /wp:social-links --></div>
-					<!-- /wp:group --></div></div>
+					<!-- /wp:group -->
+
+					<!-- wp:spacer {"height":32} -->
+					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer --></div></div>
 					<!-- /wp:media-text -->',
 );

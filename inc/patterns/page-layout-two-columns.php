@@ -5,7 +5,8 @@
 return array(
 	'title'      => __( 'Page layout with two columns', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
-	'content'    => '<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"200px","lineHeight":"1","fontWeight":"200"}}} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"}}}} -->
+	<div class="wp-block-group alignwide" style="padding-top:8rem;padding-bottom:8rem"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"200px","lineHeight":"1","fontWeight":"200"}}} -->
 	<h1 class="alignwide" style="font-size:200px;font-weight:200;line-height:1">' . wp_kses_post( __( '<em>Goldfinch </em><br><em>&amp; Sparrow</em>', 'twentytwentytwo' ) ) . '</h1>
 	<!-- /wp:heading -->
 	
@@ -67,5 +68,6 @@ return array(
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:latest-posts /--></div>
 	<!-- /wp:column --></div>
-	<!-- /wp:columns -->',
+	<!-- /wp:columns --></div>
+	<!-- /wp:group -->',
 );

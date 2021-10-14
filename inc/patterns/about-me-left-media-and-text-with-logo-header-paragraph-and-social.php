@@ -13,8 +13,8 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"8rem"}}}} -->
-					<div class="wp-block-group" style="padding-right:8rem"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"72px"}}} -->
-					<h2 style="font-size:72px;font-weight:300;line-height:1.115"><em>' . __( 'Doug<br>Stilton', 'twentytwentytwo' ) . '</em></h2>
+					<div class="wp-block-group" style="padding-right:8rem"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
+					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . __( 'Doug<br>Stilton', 'twentytwentytwo' ) . '</em></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.6"}}} -->

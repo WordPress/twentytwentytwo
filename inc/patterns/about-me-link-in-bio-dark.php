@@ -13,8 +13,8 @@ return array(
 					<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/swallow.png" alt="" width="100" height="100"/></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"textAlign":"left","style":{"typography":{"fontSize":"48px"}}} -->
-					<h2 class="has-text-align-left" style="font-size:48px">' . esc_html__( 'A trouble of hummingbirds', 'twentytwentytwo' ) . '</h2>
+					<!-- wp:heading {"textAlign":"left","fontSize":"huge"} -->
+					<h2 class="has-text-align-left has-huge-font-size">' . esc_html__( 'A trouble of hummingbirds', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:spacer {"height":40} -->

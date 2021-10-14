@@ -10,8 +10,8 @@ return array(
 					<div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full is-resized"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/swallow.png" alt="" width="100" height="100"/></figure></div>
 					<!-- /wp:image -->
 
-					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px"}}} -->
-					<h2 class="has-text-align-center" style="font-size:48px">' . esc_html__( 'Swoop', 'twentytwentytwo' ) . '</h2>
+					<!-- wp:heading {"textAlign":"center","fontSize":"huge"} -->
+					<h2 class="has-text-align-center has-huge-font-size">' . esc_html__( 'Swoop', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"align":"center"} -->

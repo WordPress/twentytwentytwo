@@ -14,8 +14,8 @@ return array(
 					<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"bottom","width":"45%","style":{"spacing":{"padding":{"top":"12rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
 					<div class="wp-block-column is-vertically-aligned-bottom" style="padding-top:12rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem;flex-basis:45%"><!-- wp:site-logo {"width":60} /-->
 
-					<!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"72px"}}} -->
-					<h2 style="font-size:72px;font-weight:300;line-height:1.115"><em>' . wp_kses_post(  __( 'Jesús<br>Rodriguez', 'twentytwentytwo' ) ) . '</em></h2>
+					<!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
+					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . wp_kses_post(  __( 'Jesús<br>Rodriguez', 'twentytwentytwo' ) ) . '</em></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.6"}}} -->

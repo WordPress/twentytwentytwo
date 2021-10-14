@@ -7,14 +7,14 @@ return array(
 	'categories' => array( 'twentytwentytwo-about-me' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:max(1.25rem, 5vw);padding-right:max(1.25rem, 5vw);padding-bottom:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image alignfull size-full"><img src="https://gutenberg.test/wp-content/themes/twentytwentytwo/assets/img/patterns/hummingbird-flying.jpg" alt=""/></figure>
+					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-flying.jpg" alt=""/></figure>
 					<!-- /wp:image -->
 
 					<!-- wp:columns {"align":"full"} -->
 					<div class="wp-block-columns alignfull"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Purchase my work</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Purchase my work', 'twentytwentytwo' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -22,7 +22,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Support my studio', 'twentytwentytwo' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -30,7 +30,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Take a class', 'twentytwentytwo' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column --></div>
@@ -40,7 +40,7 @@ return array(
 					<div class="wp-block-columns alignfull"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Purchase my work</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Read about me', 'twentytwentytwo' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -48,7 +48,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Learn about my process', 'twentytwentytwo' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -56,7 +56,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Join my mailing list', 'twentytwentytwo' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column --></div>

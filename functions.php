@@ -2,15 +2,8 @@
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	function twentytwentytwo_support() {
-
-		// Adding support for featured images.
-		add_theme_support( 'post-thumbnails' );
-
 		// Adding support for core block visual styles.
 		add_theme_support( 'wp-block-styles' );
-
-		// Adding support for responsive embedded content.
-		add_theme_support( 'responsive-embeds' );
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;
@@ -40,9 +33,6 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	}
 	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 endif;
-
-// Opt-in to only load styles for rendered blocks.
-add_filter( 'should_load_separate_core_block_assets', '__return_true' );
 
 if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	/**

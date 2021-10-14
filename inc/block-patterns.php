@@ -22,7 +22,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 			);
 			register_block_pattern_category(
 				'twentytwentytwo-pages',
-				array( 'label' => __( 'Twenty Twenty-Two Page layouts', 'twentytwentytwo' ) )
+				array( 'label' => __( 'Twenty Twenty-Two Page Layouts', 'twentytwentytwo' ) )
 			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {

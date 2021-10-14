@@ -37,7 +37,7 @@ Block Pattern Images:
 
 "White Bellied Flycatcher" illustrated by Elizabeth Gould. Public Domain.
 https://www.rawpixel.com/image/321474/free-illustration-image-bird-vintage-birds
-(Includes modified versions created by Kjell Reigstad for Twenty Twenty-Two. CC0)
+Includes modified versions created specifically for Twenty Twenty-Two.
 
 "Colombes et lis, étoffe imprimée" illustrated by Maurice Pillard Verneuil.
 https://www.rawpixel.com/image/2053817/illustration-from-lanimal-dans-decoration

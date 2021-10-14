@@ -5,40 +5,62 @@
 return array(
 	'title'      => __( 'About Me - Big Image and Buttons', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-about-me' ),
-	'content'    => '<!-- wp:group {"align":"full"} -->
-					<div class="wp-block-group alignfull">
-					<!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-flying.jpg" alt="" /></figure>
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->
+					<div class="wp-block-group alignfull" style="padding-top:max(1.25rem, 5vw);padding-right:max(1.25rem, 5vw);padding-bottom:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image alignfull size-full"><img src="https://gutenberg.test/wp-content/themes/twentytwentytwo/assets/img/patterns/hummingbird-flying.jpg" alt=""/></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"inherit":true}} -->
-					<div class="wp-block-group" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:buttons {"contentJustification":"space-between"} -->
-					<div class="wp-block-buttons is-content-justification-space-between"><!-- wp:button {"width":25} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'Purchase my work', 'twentytwentytwo' ) . '</a></div>
-					<!-- /wp:button -->
-
-					<!-- wp:button {"width":25} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'Support my studio', 'twentytwentytwo' ) . '</a></div>
-					<!-- /wp:button -->
-
-					<!-- wp:button {"width":25} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'Take a class', 'twentytwentytwo' ) . '</a></div>
+					<!-- wp:columns {"align":"full"} -->
+					<div class="wp-block-columns alignfull"><!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Purchase my work</a></div>
 					<!-- /wp:button --></div>
-					<!-- /wp:buttons -->
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:buttons {"contentJustification":"space-between"} -->
-					<div class="wp-block-buttons is-content-justification-space-between"><!-- wp:button {"width":25} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'Read about me', 'twentytwentytwo' ) . '</a></div>
-					<!-- /wp:button -->
-
-					<!-- wp:button {"width":25} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'See my process', 'twentytwentytwo' ) . '</a></div>
-					<!-- /wp:button -->
-
-					<!-- wp:button {"width":25} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link">' . esc_html__( 'Join my mailing list', 'twentytwentytwo' ) . '</a></div>
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
 					<!-- /wp:button --></div>
-					<!-- /wp:buttons -->
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
+
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column --></div>
+					<!-- /wp:columns -->
+
+					<!-- wp:columns {"align":"full"} -->
+					<div class="wp-block-columns alignfull"><!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Purchase my work</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
+
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
+
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">Support my studio</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column --></div>
+					<!-- /wp:columns -->
 
 					<!-- wp:spacer {"height":50} -->
 					<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -53,6 +75,5 @@ return array(
 
 					<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /--></ul>
 					<!-- /wp:social-links --></div>
-					<!-- /wp:group --></div>
 					<!-- /wp:group -->',
 );

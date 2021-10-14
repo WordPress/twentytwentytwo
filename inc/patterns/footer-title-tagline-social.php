@@ -6,21 +6,79 @@ return array(
 	'title'      => __( 'Footer with title, tagline, and social links', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-footers' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
-	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
-					<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:group -->
-					<div class="wp-block-group"><!-- wp:site-title {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}},"typography":{"textTransform":"uppercase"}}} /-->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->
+					<div class="wp-block-group alignfull" style="padding-top:max(1.25rem, 5vw);padding-right:max(1.25rem, 5vw);padding-bottom:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-flying.jpg" alt="' . esc_html__( 'Illustration of a flying bird', 'twentytwentytwo' ) . '"/></figure>
+					<!-- /wp:image -->
 
-					<!-- wp:site-tagline {"style":{"spacing":{"margin":{"top":"0.25em","bottom":"0px"}},"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
-					<!-- /wp:group -->
+					<!-- wp:spacer {"height":16} -->
+					<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
 
-					<!-- wp:social-links {"iconColor":"foreground","iconColorValue":"var(--wp--preset--color--foreground)","iconBackgroundColor":"background","iconBackgroundColorValue":"var(--wp--preset--color--background)","layout":{"type":"flex","justifyContent":"right"}} -->
-					<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+					<!-- wp:columns {"align":"full"} -->
+					<div class="wp-block-columns alignfull"><!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Purchase my work', 'twentytwentytwo' ) . '</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Support my studio', 'twentytwentytwo' ) . '</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
 
-					<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Take a class', 'twentytwentytwo' ) . '</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column --></div>
+					<!-- /wp:columns -->
+
+					<!-- wp:columns {"align":"full"} -->
+					<div class="wp-block-columns alignfull"><!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Read about me', 'twentytwentytwo' ) . '</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
+
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'See my process', 'twentytwentytwo' ) . '</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column -->
+
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:buttons -->
+					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Join my mailing list', 'twentytwentytwo' ) . '</a></div>
+					<!-- /wp:button --></div>
+					<!-- /wp:buttons --></div>
+					<!-- /wp:column --></div>
+					<!-- /wp:columns -->
+
+					<!-- wp:spacer {"height":32} -->
+					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
+
+					<!-- wp:social-links {"iconColor":"primary","iconColorValue":"#1a4548","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+					<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://wordpress.org/","service":"wordpress"} /-->
+
+					<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+
+					<!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
+
+					<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /--></ul>
 					<!-- /wp:social-links --></div>
-					<!-- /wp:group --></div>
 					<!-- /wp:group -->',
 );

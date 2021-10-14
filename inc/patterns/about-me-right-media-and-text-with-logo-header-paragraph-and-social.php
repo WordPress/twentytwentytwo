@@ -6,14 +6,13 @@ return array(
 	'title'      => __( 'About Me - Right Media & Text with Logo, Header, Paragraph, and Social', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-about-me' ),
 	'content'    => '<!-- wp:media-text {"align":"full","mediaLink":"' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-black.jpg","mediaType":"image","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background"} -->
-					<div class="wp-block-media-text alignfull is-stacked-on-mobile has-background-color has-foreground-background-color has-text-color has-background has-link-color"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-black.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:site-logo {"width":60} /-->
-
-					<!-- wp:spacer {"height":380} -->
-					<div style="height:380px" aria-hidden="true" class="wp-block-spacer"></div>
+					<div class="wp-block-media-text alignfull is-stacked-on-mobile has-background-color has-foreground-background-color has-text-color has-background has-link-color"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-black.jpg" alt="' . esc_attr__( 'An image of a bird flying' ) . '"/></figure><div class="wp-block-media-text__content"><!-- wp:spacer {"height":32} -->
+					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
+					<!-- wp:site-logo {"width":60} /-->
 
-					<!-- wp:group {"style":{"spacing":{"padding":{"right":"8rem"}}}} -->
-					<div class="wp-block-group" style="padding-right:8rem"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"right":"min(8rem, 5vw)","top":"min(20rem, 20vw)"}}}} -->
+					<div class="wp-block-group" style="padding-top:min(20rem, 20vw);padding-right:min(8rem, 5vw)"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
 					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>Emery<br>Driscoll</em></h2>
 					<!-- /wp:heading -->
 
@@ -25,13 +24,17 @@ return array(
 					<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:social-links {"iconColor":"background","iconColorValue":"#ffffff","iconBackgroundColor":"foreground","iconBackgroundColorValue":"#000000"} -->
-					<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"https://wordpress.org/","service":"wordpress"} /-->
+					<!-- wp:social-links {"iconColor":"background","iconColorValue":"var(--wp--preset--color--foreground)","iconBackgroundColor":"foreground","iconBackgroundColorValue":"var(--wp--preset--color--background)"} -->
+					<ul class="wp-block-social-links has-icon-color has-icon-background-color"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
-					<!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
+					<!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
-					<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /--></ul>
+					<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
 					<!-- /wp:social-links --></div>
-					<!-- /wp:group --></div></div>
+					<!-- /wp:group --></div>
+
+					<!-- wp:spacer {"height":32} -->
+					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer --></div>
 					<!-- /wp:media-text -->',
 );

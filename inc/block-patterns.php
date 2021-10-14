@@ -20,6 +20,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'twentytwentytwo-query',
 				array( 'label' => __( 'Twenty Twenty-Two Posts', 'twentytwentytwo' ) )
 			);
+			register_block_pattern_category(
+				'twentytwentytwo-pages',
+				array( 'label' => __( 'Twenty Twenty-Two Pages', 'twentytwentytwo' ) )
+			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {
 			$block_patterns = array(
@@ -51,6 +55,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-centered-logo',
 				'header-centered-logo-in-navigation',
 				'header-centered-title-navigation-social',
+				'header-title-and-button',
+				'page-layout-image-and-text',
+				'page-layout-image-text-and-video',
+				'page-layout-two-columns',
 				'query-default',
 				'query-text-grid',
 				'query-simple-blog',

@@ -33,6 +33,12 @@ Copyright 2014-2021 Adobe (http://www.adobe.com/)
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/adobe-fonts/source-serif
 
-Images
+Block Pattern Images: 
+
 "White Bellied Flycatcher" illustrated by Elizabeth Gould. Public Domain.
 https://www.rawpixel.com/image/321474/free-illustration-image-bird-vintage-birds
+Includes modified versions created specifically for Twenty Twenty-Two.
+
+"Colombes et lis, étoffe imprimée" illustrated by Maurice Pillard Verneuil.
+https://www.rawpixel.com/image/2053817/illustration-from-lanimal-dans-decoration
+Included as a short video clip.

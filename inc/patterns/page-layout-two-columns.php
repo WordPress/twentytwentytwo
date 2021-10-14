@@ -5,9 +5,9 @@
 return array(
 	'title'      => __( 'Page layout with two columns', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
-	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"}}}} -->
-	<div class="wp-block-group alignwide" style="padding-top:8rem;padding-bottom:8rem"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"200px","lineHeight":"1","fontWeight":"200"}}} -->
-	<h1 class="alignwide" style="font-size:200px;font-weight:200;line-height:1">' . wp_kses_post( __( '<em>Goldfinch </em><br><em>&amp; Sparrow</em>', 'twentytwentytwo' ) ) . '</h1>
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","right":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}}} -->
+	<div class="wp-block-group alignwide" style="padding-top:8rem;padding-bottom:8rem;padding-right:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"clamp(4rem, 15vw, 12.5rem)","lineHeight":"1","fontWeight":"200"}}} -->
+	<h1 class="alignwide" style="font-size:clamp(4rem, 15vw, 12.5rem);font-weight:200;line-height:1">' . wp_kses_post( __( '<em>Goldfinch </em><br><em>&amp; Sparrow</em>', 'twentytwentytwo' ) ) . '</h1>
 	<!-- /wp:heading -->
 	
 	<!-- wp:spacer {"height":50} -->

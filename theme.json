@@ -116,6 +116,11 @@
 					"text": "var(--wp--preset--color--background)"
 				}
 			},
+			"core/post-author": {
+				"typography": {
+					"fontWeight": "normal"
+				}
+			},
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",

@@ -1,9 +1,9 @@
 <?php
 /**
- * About Me - Right Media & Text with Logo, Header, Paragraph, and Social
+ * About page with media on the right
  */
 return array(
-	'title'      => __( 'About Me - Right Media & Text with Logo, Header, Paragraph, and Social', 'twentytwentytwo' ),
+	'title'      => __( 'About page with media on the right', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:media-text {"align":"full","mediaPosition":"right","mediaLink":"' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-black.jpg","mediaType":"image","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background"} -->
 				<div class="wp-block-media-text alignfull has-media-on-the-right is-stacked-on-mobile has-background-color has-foreground-background-color has-text-color has-background has-link-color"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/img/patterns/hummingbird-black.jpg" alt="' . esc_attr__( 'An image of a bird flying' ) . '"/></figure><div class="wp-block-media-text__content"><!-- wp:spacer {"height":32} -->

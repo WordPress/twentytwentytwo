@@ -1,9 +1,9 @@
 <?php
 /**
- * About Me - Links
+ * About page links
  */
 return array(
-	'title'      => __( 'About Me - Link in Bio', 'twentytwentytwo' ),
+	'title'      => __( 'About page links', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"10rem","right":"max(1.25rem, 5vw)","bottom":"10rem","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":false,"contentSize":"400px"}} -->
 					<div class="wp-block-group alignfull" style="padding-top:10rem;padding-right:max(1.25rem, 5vw);padding-bottom:10rem;padding-left:max(1.25rem, 5vw)"><!-- wp:image {"align":"center","width":100,"height":100,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->

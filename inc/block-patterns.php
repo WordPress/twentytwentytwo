@@ -27,12 +27,6 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {
 			$block_patterns = array(
-				'about-me-big-image-and-buttons',
-				'about-me-left-media-and-text-with-logo-header-paragraph-and-social',
-				'about-me-logo-header-description-and-social-on-left-menu-and-separator-on-right',
-				'about-me-right-media-and-text-with-logo-header-paragraph-and-social',
-				'about-me-links',
-				'about-me-links-dark',
 				'footer-default',
 				'footer-dark',
 				'footer-logo',
@@ -62,6 +56,12 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-centered-logo-in-navigation',
 				'header-centered-title-navigation-social',
 				'header-title-and-button',
+				'page-about-big-image-and-buttons',
+				'page-about-media-left',
+				'page-about-simple-dark',
+				'page-about-media-right',
+				'page-about-links',
+				'page-about-links-dark',
 				'page-layout-image-and-text',
 				'page-layout-image-text-and-video',
 				'page-layout-two-columns',

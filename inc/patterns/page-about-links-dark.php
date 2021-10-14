@@ -1,9 +1,9 @@
 <?php
 /**
- * About Me - Links
+ * About page links (dark)
  */
 return array(
-	'title'      => __( 'About Me - Link in Bio - Dark', 'twentytwentytwo' ),
+	'title'      => __( 'About page links (dark)', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"10rem","right":"max(1.25rem, 5vw)","bottom":"10rem","left":"max(1.25rem, 5vw)"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":false,"contentSize":"400px"}} -->
 					<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:10rem;padding-right:max(1.25rem, 5vw);padding-bottom:10rem;padding-left:max(1.25rem, 5vw)"><!-- wp:group -->

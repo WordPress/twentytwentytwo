@@ -20,9 +20,19 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'twentytwentytwo-query',
 				array( 'label' => __( 'Twenty Twenty-Two Posts', 'twentytwentytwo' ) )
 			);
+			register_block_pattern_category(
+				'twentytwentytwo-about-me',
+				array( 'label' => __( 'Twenty Twenty-Two: About me', 'twentytwentytwo' ) )
+			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {
 			$block_patterns = array(
+				'about-me-big-image-and-buttons',
+				'about-me-left-media-and-text-with-logo-header-paragraph-and-social',
+				'about-me-logo-header-description-and-social-on-left-menu-and-separator-on-right',
+				'about-me-right-media-and-text-with-logo-header-paragraph-and-social',
+				'about-me-link-in-bio',
+				'about-me-link-in-bio-dark',
 				'footer-default',
 				'footer-dark',
 				'footer-logo',

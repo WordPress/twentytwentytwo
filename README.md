@@ -53,5 +53,8 @@ You can install the test-specific development dependencies by running `npm i && 
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
 
+## Demo Site
+There is a demo site located at https://2022.wordpress.net. During the theme development process, updates to `trunk` will be brought onto the demo server within five minutes. After the theme is stable, the site will be switched to automatic updates from the WordPress.org repo.
+
 ## Timeline
 The theme will be released with WordPress 5.9 and follow the key dates / milestones associated with [its development schedule](https://make.wordpress.org/core/5-9). 

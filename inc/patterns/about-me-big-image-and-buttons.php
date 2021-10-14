@@ -66,14 +66,14 @@ return array(
 					<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:social-links {"iconColor":"primary","iconColorValue":"#1a4548","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
-					<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://wordpress.org/","service":"wordpress"} /-->
+					<!-- wp:social-links {"iconColor":"primary","iconColorValue":"var(--wp--preset--color--primary)","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+					<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
-					<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+					<!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
-					<!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
+					<!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
-					<!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /--></ul>
+					<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
 					<!-- /wp:social-links --></div>
 					<!-- /wp:group -->',
 );

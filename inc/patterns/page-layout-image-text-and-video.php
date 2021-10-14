@@ -5,7 +5,10 @@
 return array(
 	'title'      => __( 'Page layout with image, text and video', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
-	'content'    => '<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"72px"}}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"}}},"backgroundColor":"primary","textColor":"background"} -->
+	<div class="wp-block-group alignfull has-background-color has-primary-background-color has-text-color has-background" style="padding-top:8rem;padding-bottom:8rem"><!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
+	<div class="wp-block-group alignwide">
+	<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"72px"}}} -->
 	<h1 class="alignwide" style="font-size:72px">' . wp_kses_post( __( '<em>Warble</em>, a film about <br>hobbyist bird watchers.', 'twentytwentytwo' ) ) . '</h1>
 	<!-- /wp:heading -->
 	
@@ -13,8 +16,8 @@ return array(
 	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	
-	<!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/warble.png","dimRatio":0,"focalPoint":{"x":"0.89","y":"0.38"},"minHeight":900,"contentPosition":"top left","align":"wide"} -->
-	<div class="wp-block-cover alignwide has-custom-content-position is-position-top-left" style="min-height:900px"><img class="wp-block-cover__image-background" alt="' . esc_attr__( 'TBD', 'twentytwentytwo' ) . '" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/warble.png" style="object-position:89% 38%" data-object-fit="cover" data-object-position="89% 38%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"typography":{"fontSize":"32px"}}} -->
+	<!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/warble.png","focalPoint":{"x":"0.89","y":"0.38"},"minHeight":900,"contentPosition":"top left","align":"wide"} -->
+	<div class="wp-block-cover alignwide has-custom-content-position is-position-top-left" style="min-height:900px"><span aria-hidden="true" class="has-background-dim-100 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background" alt="' . esc_attr__( 'TBD', 'twentytwentytwo' ) . '" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/warble.png" style="object-position:89% 38%" data-object-fit="cover" data-object-position="89% 38%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"typography":{"fontSize":"32px"}}} -->
 	<h2 style="font-size:32px">' . esc_html__( 'Screening', 'twentytwentytwo' ) . '</h2>
 	<!-- /wp:heading -->
 	
@@ -55,5 +58,7 @@ return array(
 	<figure class="wp-block-video"><video controls src="' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/tt2.mp4"></video></figure>
 	<!-- /wp:video --></div>
 	<!-- /wp:column --></div>
-	<!-- /wp:columns -->',
+	<!-- /wp:columns --></div>
+	<!-- /wp:group --></div>
+	<!-- /wp:group -->',
 );

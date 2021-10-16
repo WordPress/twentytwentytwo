@@ -4,6 +4,9 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	function twentytwentytwo_support() {
 		// Adding support for core block visual styles.
 		add_theme_support( 'wp-block-styles' );
+		// Adding support for featured images
+		add_theme_support( 'post-thumbnails' );
+
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;

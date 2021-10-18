@@ -165,6 +165,16 @@
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
 				}
 			},
+			"core/pullquote": {
+				"border": {
+					"width": "1px 0"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"width": "0 0 0 1px"
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--system-font)",

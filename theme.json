@@ -4,22 +4,22 @@
 		"color": {
 			"gradients": [
 				{
-					"slug": "secondary-to-background",
+					"slug": "diagonal-secondary-to-background",
 					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
 					"name": "Diagonal secondary to background"
 				},
 				{
-					"slug": "background-to-secondary",
+					"slug": "diagonal-background-to-secondary",
 					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%)",
 					"name": "Diagonal background to secondary"
 				},
 				{
-					"slug": "tertiary-to-background",
+					"slug": "diagonal-tertiary-to-background",
 					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%)",
 					"name": "Diagonal tertiary to background"
 				},
 				{
-					"slug": "background-to-tertiary",
+					"slug": "diagonal-background-to-tertiary",
 					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%)",
 					"name": "Diagonal background to tertiary"
 				}

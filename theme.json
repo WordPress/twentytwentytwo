@@ -126,13 +126,11 @@
 			},
 			"core/pullquote": {
 				"border": {
-					"style": "solid",
 					"width": "1px 0"
 				}
 			},
 			"core/quote": {
 				"border": {
-					"style": "solid",
 					"width": "0 0 0 1px"
 				}
 			},

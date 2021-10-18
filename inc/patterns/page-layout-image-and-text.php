@@ -12,7 +12,7 @@ return array(
 					<!-- /wp:group -->
 					
 					<!-- wp:image {"align":"full","style":{"color":{}}} -->
-					<figure class="wp-block-image alignfull"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/watching-birds.png" alt="' . esc_attr__( 'TBD', 'twentytwentytwo' ) . '"/></figure>
+					<figure class="wp-block-image alignfull"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/patterns/watching-birds.webp" alt="' . esc_attr__( 'TBD', 'twentytwentytwo' ) . '"/></figure>
 					<!-- /wp:image -->
 					
 					<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"2rem","bottom":"8rem","right":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->

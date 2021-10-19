@@ -105,6 +105,11 @@
 			]
 		},
 		"custom": {
+			"spacing": {
+				"small": "max(1.25rem, 5vw)",
+				"medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
+				"large": "8rem"
+			},
 			"typography": {
 				"font-size": {
 					"gigantic": "clamp(3rem, 6vw, 4rem)",

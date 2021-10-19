@@ -89,6 +89,7 @@
 		},
 		"spacing": {
 			"blockGap": true,
+			"customMargin": true,
 			"customPadding": true,
 			"units": [
 				"%",

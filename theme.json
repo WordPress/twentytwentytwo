@@ -170,6 +170,19 @@
 					"width": "1px 0"
 				}
 			},
+			"core/query-title": {
+				"spacing": {
+					"padding": {
+						"bottom": "calc(2 * var(--wp--style--block-gap))"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontWeight": "300",
+					"lineHeight": "var(--wp--custom--typography--line-height--small)",
+					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
+				}
+			},
 			"core/quote": {
 				"border": {
 					"width": "0 0 0 1px"

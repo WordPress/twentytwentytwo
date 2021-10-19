@@ -155,6 +155,9 @@
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--background)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--typography--font-size--normal)"
 				}
 			},
 			"core/post-title": {

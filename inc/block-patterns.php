@@ -45,7 +45,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'footer-blog',
 				'general-subscribe',
 				'general-featured-posts',
-				'general-wide-width-intro-buttons',
+				'general-wide-image-intro-buttons',
 				'general-image-with-caption',
 				'general-video-trailer',
 				'header-default',

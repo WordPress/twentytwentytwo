@@ -50,6 +50,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'general-two-images-text',
 				'general-image-with-caption',
 				'general-video-trailer',
+				'general-pricing-table',
 				'header-default',
 				'header-with-tagline',
 				'header-text-only-with-stacked-tagline',

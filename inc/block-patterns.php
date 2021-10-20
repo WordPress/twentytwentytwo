@@ -9,6 +9,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 	function twentytwentytwo_register_block_patterns() {
 		if ( function_exists( 'register_block_pattern_category' ) ) {
 			register_block_pattern_category(
+				'twentytwentytwo-general',
+				array( 'label' => __( 'Twenty Twenty-Two General', 'twentytwentytwo' ) )
+			);
+			register_block_pattern_category(
 				'twentytwentytwo-footers',
 				array( 'label' => __( 'Twenty Twenty-Two Footers', 'twentytwentytwo' ) )
 			);
@@ -39,6 +43,11 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'footer-query-title-citation',
 				'footer-query-images-title-citation',
 				'footer-blog',
+				'general-subscribe',
+				'general-featured-posts',
+				'general-wide-width-intro-buttons',
+				'general-image-with-caption',
+				'general-video-trailer',
 				'header-default',
 				'header-with-tagline',
 				'header-text-only-with-stacked-tagline',

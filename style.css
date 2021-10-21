@@ -16,3 +16,13 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
+
+/* Let full-width items be full-width */
+
+.wp-site-blocks > *[class^="wp-container"] > .alignfull,
+.wp-site-blocks > *[class^="wp-container"] > .entry-content > .alignfull {
+	margin-left: calc(50% - 50vw) !important;
+	margin-right: calc(50% - 50vw) !important;
+	max-width: 100vw;
+	width: 100vw;
+}

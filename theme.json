@@ -105,6 +105,40 @@
 			]
 		},
 		"custom": {
+			"button": {
+				"border": {
+					"color": "var(--wp--preset--color--primary)",
+					"radius": "4px",
+					"style": "solid",
+					"width": "2px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--background)"
+				},
+				"hover": {
+					"color": {
+						"text": "var(--wp--preset--color--background)",
+						"background": "var(--wp--preset--color--secondary)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--secondary)"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.667em",
+						"bottom": "0.667em",
+						"left": "1.333em",
+						"right": "1.333em"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontWeight": "normal",
+					"lineHeight": 2
+				}
+			},
 			"spacing": {
 				"small": "max(1.25rem, 5vw)",
 				"medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",

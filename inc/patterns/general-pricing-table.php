@@ -12,7 +12,7 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(3rem, 6vw, 4rem)","lineHeight":"0.5"}}} -->
-					<h2 id="1" style="font-size:clamp(3rem, 6vw, 4rem);line-height:0.5">' . esc_html__( '1', 'twentytwentytwo' ) . '</h2>
+					<h2 id="1" style="font-size:clamp(3rem, 6vw, 4rem);line-height:0.5">' . esc_html( _x( '1', 'First item in a numbered list.', 'twentytwentytwo' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -40,7 +40,7 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(3rem, 6vw, 4rem)","lineHeight":"0.5"}}} -->
-					<h2 id="2" style="font-size:clamp(3rem, 6vw, 4rem);line-height:0.5">' . esc_html__( '2', 'twentytwentytwo' ) . '</h2>
+					<h2 id="2" style="font-size:clamp(3rem, 6vw, 4rem);line-height:0.5">' . esc_html( _x( '2', 'Second item in a numbered list.', 'twentytwentytwo' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"fontSize":"large"} -->
@@ -68,7 +68,7 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(3rem, 6vw, 4rem)","lineHeight":"0.5"}}} -->
-					<h2 id="3" style="font-size:clamp(3rem, 6vw, 4rem);line-height:0.5">' . esc_html__( '3', 'twentytwentytwo' ) . '</h2>
+					<h2 id="3" style="font-size:clamp(3rem, 6vw, 4rem);line-height:0.5">' . esc_html( _x( '3', 'Third item in a numbered list.', 'twentytwentytwo' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"fontSize":"large"} -->

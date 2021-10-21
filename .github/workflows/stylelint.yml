@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
-    - name: install node v14
+    - name: install node v12
       uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # v2.4.1
       with:
-        node-version: 14
+        node-version: 12
     - name: npm install
       run: npm install
     - name: stylelint

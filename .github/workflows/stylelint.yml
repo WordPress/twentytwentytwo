@@ -15,7 +15,7 @@ jobs:
     - name: install node v14
       uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # v2.4.1
       with:
-        node-version: 14
+        node-version: '14.2.0'
     - name: npm install
       run: npm install
     - name: stylelint

@@ -2,9 +2,9 @@ name: Code Quality - CSS
 
 on:
   pull_request:
-    branches: [trunk]
+    branches: []
   push:
-    branches: [trunk]
+    branches: []
 
 jobs:
   stylelint:

@@ -2,24 +2,24 @@ name: Code Quality - CSS
 
 on:
   pull_request:
-    branches: []
+    branches: [trunk]
   push:
-    branches: []
+    branches: [trunk]
 
 jobs:
   stylelint:
     name: stylelint
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+    - uses: actions/checkout
     - name: install node v14
-      uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # v2.4.1
+      uses: actions/setup-node
       with:
-        node-version: '14.2.0'
+        node-version: 14
     - name: npm install
       run: npm install
     - name: stylelint
       uses: actions-hub/stylelint@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PATTERN: "**/*.css"
+        PATTERN: "style.css"

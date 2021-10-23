@@ -10,7 +10,7 @@ Twenty Twenty-Two is designed to be the most flexible default theme ever created
 
 If you would like to contribute code, the list of [open issues](https://github.com/WordPress/twentytwentytwo/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/WordPress/twentytwentytwo/pulls) are preferred when linked to an existing issue.
 
-Contributing is not just for developers! There are many oppportunities to help with [testing](](#getting-started)), triage, discussion, design, building patterns and templates, and more. Please look through [open issues](https://github.com/WordPress/twentytwentytwo/issues), and join in wherever you feel most comfortable. 
+Contributing is not just for developers! There are many opportunities to help with [testing](#getting-started), triage, discussion, design, building patterns and templates, and more. Please look through [open issues](https://github.com/WordPress/twentytwentytwo/issues), and join in wherever you feel most comfortable. 
 
 If you'd like to help with triage, let @jffng and @kjellr know here or in [WordPress.org's slack instance](https://make.wordpress.org/chat/). We'll help you get set up with the ability to add labels to issues and PRs. 
 
@@ -36,11 +36,25 @@ To get started with development:
 
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly. 
 
+To optionally run tests locally, you will also need:
+- [Node.js](https://nodejs.org/en/)
+- [Composer](https://getcomposer.org/)
+
+You can install the test-specific development dependencies by running `npm i && composer install`. The following test commands are then available:
+- `npm run lint:css` lints and autofixes where possible the CSS
+- `composer run analyze [filename.php]` statically analyzes PHP for bugs
+- `composer run lint` checks PHP for syntax errors
+- `composer run standards:check` checks PHP for standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/)
+- `composer run standards:fix` attemps to automatically fix errors
+
 ## Resources
 - [Twenty Twenty-Two Figma Mockups](https://www.figma.com/file/76mfUcaK4QDlrXElk8MK3H/Twenty-Twenty-Two?node-id=10%3A54)
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+
+## Demo Site
+There is a demo site located at https://2022.wordpress.net. During the theme development process, updates to `trunk` will be brought onto the demo server within five minutes. After the theme is stable, the site will be switched to automatic updates from the WordPress.org repo.
 
 ## Timeline
 The theme will be released with WordPress 5.9 and follow the key dates / milestones associated with [its development schedule](https://make.wordpress.org/core/5-9). 

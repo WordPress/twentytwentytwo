@@ -13,13 +13,10 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	 * Enqueue scripts and styles.
 	 */
 	function twentytwentytwo_styles() {
-		// Register theme stylesheet.
-		wp_register_style( 'twentytwentytwo-style', '' );
+		// Register theme stylesheet
+		wp_enqueue_style( 'twentytwentytwo-style', get_stylesheet_uri() );
 		// Add styles inline.
 		wp_add_inline_style( 'twentytwentytwo-style', twentytwentytwo_get_font_face_styles() );
-		// Enqueue theme stylesheet.
-		wp_style_add_data( 'twentytwentytwo-style', 'path', get_template_directory() . '/style.css' );
-		wp_enqueue_style( 'twentytwentytwo-style' );
 	}
 	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 endif;
@@ -29,7 +26,9 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	 * Enqueue editor styles.
 	 */
 	function twentytwentytwo_editor_styles() {
-		wp_add_inline_style( 'wp-block-library', twentytwentytwo_get_font_face_styles() );
+		// Register theme stylesheet
+		wp_enqueue_style( 'twentytwentytwo-style', get_stylesheet_uri() );
+		wp_add_inline_style( 'twentytwentytwo-style', twentytwentytwo_get_font_face_styles() );
 	}
 	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 endif;

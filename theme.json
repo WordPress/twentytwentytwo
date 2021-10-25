@@ -113,16 +113,16 @@
 					"width": "2px"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
+					"background": "var(--wp--preset--color--background)",
 					"text": "var(--wp--preset--color--background)"
 				},
 				"hover": {
 					"color": {
-						"text": "var(--wp--preset--color--background)",
-						"background": "var(--wp--preset--color--secondary)"
+						"text": "var(--wp--preset--color--primary)",
+						"background": "var(--wp--preset--color--background)"
 					},
 					"border": {
-						"color": "var(--wp--preset--color--secondary)"
+						"color": "var(--wp--preset--color--primary)"
 					}
 				},
 				"spacing": {

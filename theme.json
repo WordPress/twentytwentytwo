@@ -205,6 +205,13 @@
 					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
 				}
 			},
+			"core/post-comments": {
+				"spacing": {
+					"padding": {
+						"top": "var(--wp--custom--spacing--small)"
+					}
+				}
+			},
 			"core/pullquote": {
 				"border": {
 					"width": "1px 0"

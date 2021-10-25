@@ -180,7 +180,8 @@
 		},
 		"layout": {
 			"contentSize": "650px",
-			"wideSize": "1000px"
+			"wideSize": "1000px",
+			"outerPadding": "var(--wp--custom--spacing--small, 1.25rem)"
 		}
 	},
 	"styles": {

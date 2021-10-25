@@ -13,7 +13,7 @@ return array(
 					<!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"typography":{"fontFamily":"var:preset|font-family|system-font","fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
 
-					<!-- wp:post-date {"format":"F j, Y","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
+					<!-- wp:post-date {"format":"m.d.y","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
 					<!-- /wp:group -->
 					<!-- /wp:post-template -->
 

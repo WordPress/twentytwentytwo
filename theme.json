@@ -1,5 +1,36 @@
 {
 	"version": 1,
+	"customTemplates": [
+		{
+			"name": "blank",
+			"title": "Blank",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
+			"name": "page-home",
+			"title": "Homepage",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "single-no-separators",
+			"title": "Single Post (No Separators)",
+			"postTypes": [
+				"post"
+			]
+		},
+		{
+			"name": "page-no-separators",
+			"title": "Page (No Separators)",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
 	"settings": {
 		"color": {
 			"gradients": [
@@ -74,6 +105,11 @@
 			]
 		},
 		"custom": {
+			"spacing": {
+				"small": "max(1.25rem, 5vw)",
+				"medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
+				"large": "8rem"
+			},
 			"typography": {
 				"font-size": {
 					"gigantic": "clamp(3rem, 6vw, 4rem)",
@@ -89,6 +125,7 @@
 		},
 		"spacing": {
 			"blockGap": true,
+			"customMargin": true,
 			"customPadding": true,
 			"units": [
 				"%",
@@ -155,6 +192,9 @@
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--background)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--typography--font-size--normal)"
 				}
 			},
 			"core/post-title": {
@@ -168,6 +208,14 @@
 			"core/pullquote": {
 				"border": {
 					"width": "1px 0"
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--source-serif-pro)",
+					"fontWeight": "300",
+					"lineHeight": "var(--wp--custom--typography--line-height--small)",
+					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
 				}
 			},
 			"core/quote": {
@@ -253,5 +301,22 @@
 			"lineHeight": "var(--wp--custom--typography--line-height--normal)",
 			"fontSize": "var(--wp--preset--font-size--normal)"
 		}
-	}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "header-large-dark",
+			"title": "Header — Dark",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	]
 }

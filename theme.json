@@ -181,7 +181,7 @@
 		"layout": {
 			"contentSize": "650px",
 			"wideSize": "1000px",
-			"outerPadding": "var(--wp--custom--spacing--small, 1.25rem)"
+			"outerPadding": { "left": "var(--wp--custom--spacing--small, 1.25rem)", "right": "var(--wp--custom--spacing--small, 1.25rem)" }
 		}
 	},
 	"styles": {

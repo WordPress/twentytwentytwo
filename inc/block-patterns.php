@@ -79,6 +79,8 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'page-layout-image-and-text',
 				'page-layout-image-text-and-video',
 				'page-layout-two-columns',
+				'page-sidebar-left',
+				'page-sidebar-right',
 				'query-default',
 				'query-simple-blog',
 				'query-grid',

@@ -16,3 +16,17 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
+
+/* Add hover, focus, and active states to buttons. */
+
+button:hover, 
+button:focus, 
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+	text-decoration: underline;
+}
+
+button:active, 
+.wp-block-button__link:active {
+	text-decoration: none;
+}

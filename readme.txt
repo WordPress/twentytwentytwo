@@ -33,6 +33,26 @@ Copyright 2014-2021 Adobe (http://www.adobe.com/)
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/adobe-fonts/source-serif
 
-Images
+Block Pattern Images: 
+
 "White Bellied Flycatcher" illustrated by Elizabeth Gould. Public Domain.
 https://www.rawpixel.com/image/321474/free-illustration-image-bird-vintage-birds
+Includes modified versions created specifically for Twenty Twenty-Two.
+
+Colorful vintage hummingbird illustrations. CC0.
+https://www.rawpixel.com/image/2281674/free-illustration-image-bird-hummingbird-flying
+https://www.rawpixel.com/image/2281671/free-illustration-image-bird-hummingbird-flying
+https://www.rawpixel.com/image/2281679/free-illustration-image-bird-hummingbird-animals
+https://www.rawpixel.com/image/2281665/free-illustration-image-hummingbird-ernst-haeckel-birds
+
+"Green-tailed Jacamar" by Jacques Barraband. CC0.
+https://www.rawpixel.com/image/328508/free-illustration-image-jacques-barraband-paradise
+
+"Ducks" by Goyō Hashiguchi. CC0
+https://www.rawpixel.com/image/3813787/illustration-image-flower-art-floral
+
+"Colombes et lis, étoffe imprimée" illustrated by Maurice Pillard Verneuil.
+https://www.rawpixel.com/image/2053817/illustration-from-lanimal-dans-decoration
+Included as a short video clip.
+
+Modified versions of the above images, as well as additional "flight path" illustrations were created specifically for Twenty Twenty-Two. CC0.

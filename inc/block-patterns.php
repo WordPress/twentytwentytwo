@@ -9,6 +9,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 	function twentytwentytwo_register_block_patterns() {
 		if ( function_exists( 'register_block_pattern_category' ) ) {
 			register_block_pattern_category(
+				'twentytwentytwo-general',
+				array( 'label' => __( 'Twenty Twenty-Two General', 'twentytwentytwo' ) )
+			);
+			register_block_pattern_category(
 				'twentytwentytwo-footers',
 				array( 'label' => __( 'Twenty Twenty-Two Footers', 'twentytwentytwo' ) )
 			);
@@ -19,6 +23,10 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 			register_block_pattern_category(
 				'twentytwentytwo-query',
 				array( 'label' => __( 'Twenty Twenty-Two Posts', 'twentytwentytwo' ) )
+			);
+			register_block_pattern_category(
+				'twentytwentytwo-pages',
+				array( 'label' => __( 'Twenty Twenty-Two Pages', 'twentytwentytwo' ) )
 			);
 		}
 		if ( function_exists( 'register_block_pattern' ) ) {
@@ -35,6 +43,16 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'footer-query-title-citation',
 				'footer-query-images-title-citation',
 				'footer-blog',
+				'general-subscribe',
+				'general-featured-posts',
+				'general-layered-images-with-duotone',
+				'general-wide-image-intro-buttons',
+				'general-two-images-text',
+				'general-image-with-caption',
+				'general-video-trailer',
+				'general-pricing-table',
+				'general-divider-light',
+				'general-divider-dark',
 				'header-default',
 				'header-with-tagline',
 				'header-text-only-with-stacked-tagline',
@@ -51,9 +69,20 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-centered-logo',
 				'header-centered-logo-in-navigation',
 				'header-centered-title-navigation-social',
+				'header-title-and-button',
+				'page-about-big-image-and-buttons',
+				'page-about-media-left',
+				'page-about-simple-dark',
+				'page-about-media-right',
+				'page-about-links',
+				'page-about-links-dark',
+				'page-layout-image-and-text',
+				'page-layout-image-text-and-video',
+				'page-layout-two-columns',
 				'query-default',
-				'query-text-grid',
 				'query-simple-blog',
+				'query-grid',
+				'query-text-grid',
 				'query-image-grid',
 				'query-large-titles',
 				'query-irregular-grid',

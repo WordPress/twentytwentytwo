@@ -1,9 +1,9 @@
 <?php
 /**
- * Image grid posts block pattern
+ * Grid of image posts block pattern
  */
 return array(
-	'title'      => __( 'Image grid posts', 'twentytwentytwo' ),
+	'title'      => __( 'Grid of image posts', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false,"perPage":12},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true}} -->
@@ -13,7 +13,7 @@ return array(
 					<!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"typography":{"fontFamily":"var:preset|font-family|system-font","fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
 
-					<!-- wp:post-date {"format":"F j, Y","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
+					<!-- wp:post-date {"format":"m.d.y","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontSize":"small"} /--></div>
 					<!-- /wp:group -->
 					<!-- /wp:post-template -->
 

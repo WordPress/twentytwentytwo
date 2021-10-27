@@ -4,6 +4,9 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 	function twentytwentytwo_support() {
 		// Adding support for core block visual styles.
 		add_theme_support( 'wp-block-styles' );
+
+		// Add stylesheet.
+		add_editor_style( 'style.css' );
 	}
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;

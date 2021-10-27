@@ -273,6 +273,11 @@
 					"fontWeight": "400",
 					"fontStyle": "italic"
 				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontWeight": "300"
+				}
 			}
 		},
 		"color": {

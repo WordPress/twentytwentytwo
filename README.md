@@ -2,7 +2,7 @@
 
 Welcome to the development repository for the default theme that will launch with WordPress 5.9.
 
-<img alt="Flying Bird" src="https://user-images.githubusercontent.com/1202812/136213624-3073a915-2a72-4248-acc1-301c41dea3d4.png">
+![Flying Bird](https://user-images.githubusercontent.com/1202812/136213624-3073a915-2a72-4248-acc1-301c41dea3d4.png)
 
 ## About
 

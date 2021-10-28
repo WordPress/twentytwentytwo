@@ -5,6 +5,17 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 		// Adding support for core block visual styles.
 		add_theme_support( 'wp-block-styles' );
 	}
+
+	/*
+	* Adds starter content to highlight the theme on fresh sites.
+	* This is done conditionally to avoid loading the starter content on every
+	* page load, as it is a one-off operation only needed once in the customizer.
+	*/
+	if ( is_customize_preview() ) {
+		require get_template_directory() . '/inc/starter-content.php';
+		add_theme_support( 'starter-content', twentytwentytwo_get_starter_content() );
+	}
+
 	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 endif;
 

@@ -1,9 +1,11 @@
 # Twenty Twenty-Two
+
 Welcome to the development repository for the default theme that will launch with WordPress 5.9.
 
 <img alt="Flying Bird" src="https://user-images.githubusercontent.com/1202812/136213624-3073a915-2a72-4248-acc1-301c41dea3d4.png">
 
 ## About
+
 Twenty Twenty-Two is designed to be the most flexible default theme ever created for WordPress. It's built for full site editing first as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through theme.json and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
 
 ## Contributing
@@ -15,6 +17,7 @@ Contributing is not just for developers! There are many opportunities to help wi
 If you'd like to help with triage, let @jffng and @kjellr know here or in [WordPress.org's slack instance](https://make.wordpress.org/chat/). We'll help you get set up with the ability to add labels to issues and PRs.
 
 ### Getting Started
+
 To get started with development:
 
 1. Set up a WordPress instance, we recommend [wp-env](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/) or [Local](https://localwp.com/) as an alternative to docker.
@@ -29,6 +32,7 @@ To get started with development:
 - If you've helped contribute to the theme in any way, you deserve credit! Folks will be updating [CONTRIBUTORS.md](CONTRIBUTORS.md) periodically with names of contributors, but feel free to open a PR or issue if we leave someone out.
 
 ## Requirements
+
 - Gutenberg plugin (latest)
 - WordPress 5.8+
 - PHP 5.6+
@@ -48,13 +52,16 @@ You can install the test-specific development dependencies by running `npm i && 
 - `composer run standards:fix` attemps to automatically fix errors
 
 ## Resources
+
 - [Twenty Twenty-Two Figma Mockups](https://www.figma.com/file/76mfUcaK4QDlrXElk8MK3H/Twenty-Twenty-Two?node-id=10%3A54)
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
 
 ## Demo Site
+
 There is a demo site located at https://2022.wordpress.net. During the theme development process, updates to `trunk` will be brought onto the demo server within five minutes. After the theme is stable, the site will be switched to automatic updates from the WordPress.org repo.
 
 ## Timeline
+
 The theme will be released with WordPress 5.9 and follow the key dates / milestones associated with [its development schedule](https://make.wordpress.org/core/5-9).

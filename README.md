@@ -14,7 +14,7 @@ If you would like to contribute code, the list of [open issues](https://github.c
 
 Contributing is not just for developers! There are many opportunities to help with [testing](#getting-started), triage, discussion, design, building patterns and templates, and more. Please look through [open issues](https://github.com/WordPress/twentytwentytwo/issues), and join in wherever you feel most comfortable.
 
-If you'd like to help with triage, let @jffng and @kjellr know here or in [WordPress.org's slack instance](https://make.wordpress.org/chat/). We'll help you get set up with the ability to add labels to issues and PRs.
+If you'd like to help with triage, let @jffng and @kjellr know here or in [WordPress.org's Slack instance](https://make.wordpress.org/chat/). We'll help you get set up with the ability to add labels to issues and PRs.
 
 ### Getting Started
 

@@ -41,10 +41,12 @@ To get started with development:
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly.
 
 To optionally run tests locally, you will also need:
+
 - [Node.js](https://nodejs.org/en/)
 - [Composer](https://getcomposer.org/)
 
 You can install the test-specific development dependencies by running `npm i && composer install`. The following test commands are then available:
+
 - `npm run lint:css` lints and autofixes where possible the CSS
 - `composer run analyze [filename.php]` statically analyzes PHP for bugs
 - `composer run lint` checks PHP for syntax errors

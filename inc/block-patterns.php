@@ -53,6 +53,8 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'general-pricing-table',
 				'general-divider-light',
 				'general-divider-dark',
+				'general-credit',
+				'general-404',
 				'header-default',
 				'header-large-dark',
 				'header-with-tagline',

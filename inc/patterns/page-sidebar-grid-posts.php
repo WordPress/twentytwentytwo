@@ -1,9 +1,9 @@
 <?php
 /**
- * Posts with left sidebar block pattern
+ * Grid of posts with left sidebar block pattern
  */
 return array(
-	'title'      => __( 'Posts with left sidebar', 'twentytwentytwo' ),
+	'title'      => __( 'Grid of posts with left sidebar', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:max(1.25rem, 5vw);padding-right:max(1.25rem, 5vw);padding-bottom:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->

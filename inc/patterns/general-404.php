@@ -15,4 +15,5 @@ return array(
 					<!-- wp:spacer {"height":128} -->
 					<div style="height:128px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->',
+	'inserter'   => false,
 );

@@ -3,7 +3,7 @@
  * Heading and bird image
  *
  * This pattern is used only for translation
- * and to refernce a dynamic image URL. It does
+ * and to reference a dynamic image URL. It does
  * not appear in the inserter.
  */
 return array(

@@ -12,16 +12,16 @@
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
-	/** 
+	/**
 	 * Add support for core block visual styles.
 	 * Styles load in both the editor and the front end.
-	 * 
+	 *
 	 * @link https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-support/#default-block-styles
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_support() {
-		
+
 		add_theme_support( 'wp-block-styles' );
 
 	}
@@ -34,7 +34,7 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
 	/**
 	 * Enqueue styles.
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_styles() {
@@ -47,7 +47,7 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
 		// Add metadata to the CSS stylesheet.
 		wp_style_add_data( 'twentytwentytwo-style', 'path', get_template_directory() . '/style.css' );
-		
+
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style' );
 
@@ -61,7 +61,7 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 
 	/**
 	 * Enqueue editor styles.
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_editor_styles() {
@@ -80,7 +80,7 @@ if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	/**
 	 * Get font face styles.
 	 * Called by functions twentytwentytwo_styles() and twentytwentytwo_editor_styles() above.
-	 * 
+	 *
 	 * @return string
 	 */
 	function twentytwentytwo_get_font_face_styles() {

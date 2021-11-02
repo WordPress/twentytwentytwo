@@ -70,7 +70,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-centered-logo-in-navigation',
 				'header-centered-title-navigation-social',
 				'header-title-and-button',
-				'header-heading-and-bird',
+				'hidden-heading-and-bird',
 				'page-about-big-image-and-buttons',
 				'page-about-media-left',
 				'page-about-simple-dark',

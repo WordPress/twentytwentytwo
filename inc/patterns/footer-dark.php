@@ -3,7 +3,7 @@
  * Dark footer wtih title and citation
  */
 return array(
-	'title'      => __( 'Dark footer with title and citation)', 'twentytwentytwo' ),
+	'title'      => __( 'Dark footer with title and citation', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-footers' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->

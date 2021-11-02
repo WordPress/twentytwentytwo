@@ -169,6 +169,7 @@
 			]
 		},
 		"typography": {
+			"dropCap": false,
 			"customLineHeight": true,
 			"fontFamilies": [
 				{

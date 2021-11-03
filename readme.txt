@@ -3,13 +3,25 @@ Contributors: wordpressdotorg
 Requires at least: 5.8
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
 The WordPress default theme for 2022.
+
+== Changelog ==
+
+= 0.2 =
+* Replace strings and dynamic URLs with patterns
+* Optimize assets 
+* Add sidebar patterns
+* Code cleanup
+
+= 0.1 =
+* Initial development release
+* Includes baseline templates, patterns, and theme.json
 
 == Copyright ==
 

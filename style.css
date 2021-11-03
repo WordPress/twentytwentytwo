@@ -16,3 +16,12 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
+
+.wp-block-search__button,
+.wp-block-file a.wp-block-file__button {
+	background-color: var(--wp--theme--button--color--background);
+	border: none;
+	border-radius: var(--wp--theme--button--border--radius);
+	color: var(--wp--theme--button--color--text);
+	cursor: pointer;
+}

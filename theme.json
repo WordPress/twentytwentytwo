@@ -215,6 +215,12 @@
 		"layout": {
 			"contentSize": "650px",
 			"wideSize": "1000px"
+		},
+		"border": {
+			"customColor": true,
+			"customRadius": true,
+			"customStyle": true,
+			"customWidth": true
 		}
 	},
 	"styles": {

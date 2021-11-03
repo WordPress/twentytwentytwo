@@ -25,15 +25,17 @@ return array(
 
 					<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:site-title /-->
-
-					<!-- wp:paragraph {"align":"right"} -->
-					<p class="has-text-align-right">' .
+					<!-- wp:group {"layout":{"type":"flex","justifyContent":"right"}} -->
+					<div class="wp-block-group">
+					<!-- wp:paragraph -->
+					<p>' .
 					sprintf(
 						/* Translators: WordPress link. */
 						esc_html__( 'Proudly powered by %s', 'twentytwentytwo' ),
 						'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentytwo' ) ) . '" rel="nofollow">WordPress</a>'
 					) . '</p>
 					<!-- /wp:paragraph --></div>
+					<!-- /wp:group --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',
 );

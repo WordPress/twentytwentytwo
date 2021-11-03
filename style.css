@@ -18,7 +18,7 @@ Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
 
 .wp-block-search__button,
-.wp-block-file a.wp-block-file__button {
+.wp-block-file .wp-block-file__button {
 	background-color: var(--wp--theme--button--color--background);
 	border: none;
 	border-radius: var(--wp--theme--button--border--radius);

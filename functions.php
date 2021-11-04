@@ -45,9 +45,6 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 		// Add styles inline.
 		wp_add_inline_style( 'twentytwentytwo-style', twentytwentytwo_get_font_face_styles() );
 
-		// Add metadata to the CSS stylesheet.
-		wp_style_add_data( 'twentytwentytwo-style', 'path', get_template_directory() . '/style.css' );
-
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style' );
 

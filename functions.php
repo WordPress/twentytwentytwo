@@ -40,13 +40,15 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 	function twentytwentytwo_styles() {
 
 		// Register theme stylesheet.
-		wp_register_style( 'twentytwentytwo-style', '' );
+		wp_register_style(
+			'twentytwentytwo-style',
+			get_template_directory_uri() . '/style.css',
+			array(),
+			wp_get_theme()->get( 'Version' ),
+		);
 
 		// Add styles inline.
 		wp_add_inline_style( 'twentytwentytwo-style', twentytwentytwo_get_font_face_styles() );
-
-		// Add metadata to the CSS stylesheet.
-		wp_style_add_data( 'twentytwentytwo-style', 'path', get_template_directory() . '/style.css' );
 
 		// Enqueue theme stylesheet.
 		wp_enqueue_style( 'twentytwentytwo-style' );

@@ -1,9 +1,9 @@
 <?php
 /**
- * Large Header block pattern
+ * Large header block pattern
  */
 return array(
-	'title'      => __( 'Large Header', 'twentytwentytwo' ),
+	'title'      => __( 'Large header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"0px","bottom":"8rem","right":"0px","left":"0px"},"margin":{"bottom":"8rem"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->

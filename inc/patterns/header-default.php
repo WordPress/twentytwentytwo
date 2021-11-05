@@ -1,9 +1,9 @@
 <?php
 /**
- * Default Header block pattern
+ * Default header block pattern
  */
 return array(
-	'title'      => __( 'Default Header', 'twentytwentytwo' ),
+	'title'      => __( 'Default header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->

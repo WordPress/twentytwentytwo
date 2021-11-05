@@ -1,9 +1,9 @@
 <?php
 /**
- * Logo and Navigation Header block pattern
+ * Logo and navigation header block pattern
  */
 return array(
-	'title'      => __( 'Logo and Navigation Header', 'twentytwentytwo' ),
+	'title'      => __( 'Logo and navigation header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}}} -->

@@ -1,9 +1,9 @@
 <?php
 /**
- * Header with Tagline block pattern
+ * Header with tagline block pattern
  */
 return array(
-	'title'      => __( 'Header with Tagline', 'twentytwentytwo' ),
+	'title'      => __( 'Header with tagline', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->

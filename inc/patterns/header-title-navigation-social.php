@@ -1,9 +1,9 @@
 <?php
 /**
- * Title, Navigation, and Social Links Header block pattern
+ * Title, navigation, and social links header block pattern
  */
 return array(
-	'title'      => __( 'Title, Navigation, and Social Links Header', 'twentytwentytwo' ),
+	'title'      => __( 'Title, navigation, and social links header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->

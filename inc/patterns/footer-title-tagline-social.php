@@ -71,7 +71,7 @@ return array(
 					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:social-links {"iconColor":"primary","iconColorValue":"#1a4548","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+					<!-- wp:social-links {"iconColor":"primary","iconColorValue":"var(--wp--custom--color--primary)","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
 					<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://wordpress.org/","service":"wordpress"} /-->
 
 					<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->

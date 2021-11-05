@@ -17,7 +17,7 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"verticalAlignment":"center"} -->
-					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:navigation {"navigationMenuId":445,"itemsJustification":"right"} /--></div>
+					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:navigation {"itemsJustification":"right"} /--></div>
 					<!-- /wp:column --></div>
 					<!-- /wp:columns --></div>
 					<!-- /wp:group -->',

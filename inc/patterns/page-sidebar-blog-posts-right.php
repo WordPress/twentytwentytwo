@@ -16,10 +16,6 @@ return array(
 					<!-- /wp:navigation --></div>
 					<!-- /wp:group -->
 
-					<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
-					<hr class="wp-block-separator alignwide is-style-wide"/>
-					<!-- /wp:separator -->
-
 					<!-- wp:spacer {"height":64} -->
 					<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
@@ -70,13 +66,9 @@ return array(
 
 					<!-- wp:site-tagline /-->
 
-					<!-- wp:spacer {"height":32} -->
-					<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- wp:spacer {"height":16} -->
+					<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
-
-					<!-- wp:separator {"className":"is-style-wide"} -->
-					<hr class="wp-block-separator is-style-wide"/>
-					<!-- /wp:separator -->
 
 					<!-- wp:heading {"level":4,"fontSize":"medium"} -->
 					<h4 class="has-medium-font-size"><em>' . esc_html__( 'Categories', 'twentytwentytwo' ) . '</em></h4>

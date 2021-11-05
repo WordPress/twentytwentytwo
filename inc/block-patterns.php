@@ -66,7 +66,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'header-logo-navigation-offset-tagline',
 				'header-stacked',
 				'header-centered-logo',
-				'header-centered-logo-in-navigation-black-background',
+				'header-centered-logo-black-background',
 				'header-centered-title-navigation-social',
 				'header-title-and-button',
 				'hidden-404',

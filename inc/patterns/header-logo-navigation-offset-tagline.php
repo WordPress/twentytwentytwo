@@ -1,9 +1,9 @@
 <?php
 /**
- * Logo, Navigation, and offset Tagline Header block pattern
+ * Logo, navigation, and offset tagline Header block pattern
  */
 return array(
-	'title'      => __( 'Logo, Navigation, and offset Tagline Header', 'twentytwentytwo' ),
+	'title'      => __( 'Logo, navigation, and offset tagline Header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem"}}}} -->

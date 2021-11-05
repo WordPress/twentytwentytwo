@@ -1,9 +1,9 @@
 <?php
 /**
- * Title and Button Header block pattern
+ * Title and button header block pattern
  */
 return array(
-	'title'      => __( 'Title and Button Header', 'twentytwentytwo' ),
+	'title'      => __( 'Title and button header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->

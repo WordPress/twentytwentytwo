@@ -1,9 +1,9 @@
 <?php
 /**
- * Header with centered Logo in Navigation and black background block pattern
+ * Header with centered logo and black background
  */
 return array(
-	'title'      => __( 'Header with centered Logo in Navigation and black background', 'twentytwentytwo' ),
+	'title'      => __( 'Header with centered logo and black background', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"max(1.25rem, 5vw)","top":"max(1.25rem, 5vw)"}},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"flex","justifyContent":"center"}} -->

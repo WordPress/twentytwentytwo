@@ -1,9 +1,9 @@
 <?php
 /**
- * Header with centered Logo block pattern
+ * Header with centered logo block pattern
  */
 return array(
-	'title'      => __( 'Header with centered Logo', 'twentytwentytwo' ),
+	'title'      => __( 'Header with centered logo', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":true}} -->

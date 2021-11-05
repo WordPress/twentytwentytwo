@@ -1,9 +1,9 @@
 <?php
 /**
- * Text-only Header with Tagline and black background block pattern
+ * Text-only header with tagline and black background block pattern
  */
 return array(
-	'title'      => __( 'Text-only Header with Tagline and black background', 'twentytwentytwo' ),
+	'title'      => __( 'Text-only header with tagline and black background', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"spacing":{"padding":{"top":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)"}}},"backgroundColor":"foreground","textColor":"secondary","layout":{"inherit":true}} -->

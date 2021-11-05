@@ -1,9 +1,9 @@
 <?php
 /**
- * Logo, Navigation, and Social Links Header with black background block pattern
+ * Logo, navigation, and social links header with black background block pattern
  */
 return array(
-	'title'      => __( 'Logo, Navigation, and Social Links Header with black background', 'twentytwentytwo' ),
+	'title'      => __( 'Logo, navigation, and social links header with black background', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"spacing":{"padding":{"top":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)"}}},"backgroundColor":"tertiary","textColor":"foreground","layout":{"inherit":true}} -->

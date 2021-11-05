@@ -86,6 +86,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 				'page-layout-image-and-text',
 				'page-layout-image-text-and-video',
 				'page-layout-two-columns',
+				'page-sidebar-poster',
 				'page-sidebar-grid-posts',
 				'page-sidebar-blog-posts',
 				'query-default',

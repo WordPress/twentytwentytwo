@@ -26,7 +26,7 @@
 	<file>.</file>
 
 	<rule ref="WordPress-Core"/>
-	<rule ref="WordPress.CodeAnalysis.EmptyStatement"/>
+	<rule ref="Generic.CodeAnalysis.EmptyPHPStatement"/>
 
 	<!-- These rules are being set as warnings instead of errors, so we can error check the entire codebase. -->
 	<rule ref="WordPress.PHP.YodaConditions.NotYoda">

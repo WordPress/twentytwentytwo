@@ -19,8 +19,8 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column -->
-					<div class="wp-block-column"><!-- wp:paragraph -->
-					<p>' . esc_html__( 'LATEST POSTS', 'twentytwentytwo' ) . '</p>
+					<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
+					<p style="text-transform:uppercase">' . esc_html__( 'LATEST POSTS', 'twentytwentytwo' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:latest-posts /--></div>

@@ -3,7 +3,7 @@ Contributors: wordpressdotorg
 Requires at least: 5.8
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 0.2
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,15 +13,10 @@ The WordPress default theme for 2022.
 
 == Changelog ==
 
-= 0.2 =
-* Replace strings and dynamic URLs with patterns
-* Optimize assets 
-* Add sidebar patterns
-* Code cleanup
+= 1.0 =
+* Released: December
 
-= 0.1 =
-* Initial development release
-* Includes baseline templates, patterns, and theme.json
+https://wordpress.org/support/article/twenty-twenty-two-changelog#Version_1.0
 
 == Copyright ==
 
@@ -45,7 +40,7 @@ Copyright 2014-2021 Adobe (http://www.adobe.com/)
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/adobe-fonts/source-serif
 
-Block Pattern Images: 
+Block Pattern Images:
 
 "White Bellied Flycatcher" illustrated by Elizabeth Gould. Public Domain.
 https://www.rawpixel.com/image/321474/free-illustration-image-bird-vintage-birds

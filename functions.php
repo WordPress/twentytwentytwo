@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Two
- * @since 1.0.0
+ * @since Twenty Twenty-Two 1.0
  */
 
 
@@ -14,6 +14,8 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * @since Twenty Twenty-Two 1.0
 	 *
 	 * @return void
 	 */
@@ -24,16 +26,19 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 		// Enqueue editor styles.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
+
 	}
-	add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 
 endif;
 
+add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 
 if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
 	/**
 	 * Enqueue styles.
+	 *
+	 * @since Twenty Twenty-Two 1.0
 	 *
 	 * @return void
 	 */
@@ -44,7 +49,7 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 			'twentytwentytwo-style',
 			get_template_directory_uri() . '/style.css',
 			array(),
-			wp_get_theme()->get( 'Version' ),
+			wp_get_theme()->get( 'Version' )
 		);
 
 		// Add styles inline.
@@ -54,15 +59,17 @@ if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 		wp_enqueue_style( 'twentytwentytwo-style' );
 
 	}
-	add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 endif;
 
+add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 
 	/**
 	 * Enqueue editor styles.
+	 *
+	 * @since Twenty Twenty-Two 1.0
 	 *
 	 * @return void
 	 */
@@ -72,9 +79,10 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 		wp_add_inline_style( 'wp-block-library', twentytwentytwo_get_font_face_styles() );
 
 	}
-	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 
 endif;
+
+add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 
 
 if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
@@ -82,6 +90,8 @@ if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	/**
 	 * Get font face styles.
 	 * Called by functions twentytwentytwo_styles() and twentytwentytwo_editor_styles() above.
+	 *
+	 * @since Twenty Twenty-Two 1.0
 	 *
 	 * @return string
 	 */
@@ -108,7 +118,6 @@ if ( ! function_exists( 'twentytwentytwo_get_font_face_styles' ) ) :
 	}
 
 endif;
-
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';

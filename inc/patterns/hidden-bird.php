@@ -2,7 +2,7 @@
 /**
  * Bird image
  *
- * This pattern is used only to reference a dynamic image URL. 
+ * This pattern is used only to reference a dynamic image URL.
  * It does not appear in the inserter.
  */
 return array(

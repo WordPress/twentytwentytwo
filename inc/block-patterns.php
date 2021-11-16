@@ -62,6 +62,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 			'general-divider-dark',
 			'header-default',
 			'header-large-dark',
+			'header-small-dark',
 			'header-image-background',
 			'header-image-background-overlay',
 			'header-with-tagline',

@@ -79,6 +79,7 @@ if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
 			'header-centered-title-navigation-social',
 			'header-title-and-button',
 			'hidden-404',
+			'hidden-bird',
 			'hidden-heading-and-bird',
 			'page-about-big-image-and-buttons',
 			'page-about-media-left',

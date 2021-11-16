@@ -10,8 +10,8 @@
 			]
 		},
 		{
-			"name": "page-home",
-			"title": "Homepage",
+			"name": "page-large-header",
+			"title": "Page (Large Header)",
 			"postTypes": [
 				"page"
 			]

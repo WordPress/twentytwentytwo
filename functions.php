@@ -132,7 +132,7 @@ if ( ! function_exists( 'twentytwentytwo_preload_webfonts' ) ) :
 	 * all.
 	 *
 	 * @since Twenty Twenty-Two 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentytwo_preload_webfonts() {

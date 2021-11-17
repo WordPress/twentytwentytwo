@@ -39,7 +39,7 @@
 | @pattonwebz | @williampatton |
 | @pbking | @pbking |
 | @ribaricplusplus | @ribaricplusplus |
-| @richtabor | @onemaggie |
+| @richtabor | @richtabor |
 | @riyadh1734 | @saju4wordpress |
 | @sandstromer | UNKNOWN |
 | @scruffian | @scruffian |

@@ -12,8 +12,8 @@ return array(
 
 					<!-- wp:site-logo {"width":60} /-->
 
-					<!-- wp:group {"style":{"spacing":{"padding":{"right":"min(8rem, 5vw)","top":"min(25rem, 25vw)"}}}} -->
-					<div class="wp-block-group" style="padding-top:min(25rem, 25vw);padding-right:min(8rem, 5vw)"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"right":"min(8rem, 5vw)","top":"min(28rem, 28vw)"}}}} -->
+					<div class="wp-block-group" style="padding-top:min(28rem, 28vw);padding-right:min(8rem, 5vw)"><!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
 					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . esc_html__( 'Doug', 'twentytwentytwo' ) . '<br>' . esc_html__( 'Stilton', 'twentytwentytwo' ) . '</em></h2>
 					<!-- /wp:heading -->
 

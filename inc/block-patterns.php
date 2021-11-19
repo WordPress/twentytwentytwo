@@ -92,6 +92,7 @@ function twentytwentytwo_register_block_patterns() {
 		'page-about-media-left',
 		'page-about-simple-dark',
 		'page-about-media-right',
+		'page-about-solid-color',
 		'page-about-links',
 		'page-about-links-dark',
 		'page-layout-image-and-text',

@@ -360,6 +360,11 @@
 			"area": "header"
 		},
 		{
+			"name": "header-small-dark",
+			"title": "Header — Dark, small",
+			"area": "header"
+		},
+		{
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"

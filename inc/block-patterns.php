@@ -92,7 +92,7 @@ function twentytwentytwo_register_block_patterns() {
 		'page-about-media-right',
 		'page-about-links',
 		'page-about-links-dark',
-		'page-about-big-image-and-buttons',
+		'page-about-large-image-and-buttons',
 		'page-layout-image-and-text',
 		'page-layout-image-text-and-video',
 		'page-layout-two-columns',

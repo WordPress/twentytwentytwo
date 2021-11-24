@@ -1,27 +1,26 @@
 === Twenty Twenty-Two ===
 Contributors: wordpressdotorg
 Requires at least: 5.8
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 5.6
-Stable tag: 0.2
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-The WordPress default theme for 2022.
+Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page.
+
+The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks.
+
+Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
 
 == Changelog ==
 
-= 0.2 =
-* Replace strings and dynamic URLs with patterns
-* Optimize assets 
-* Add sidebar patterns
-* Code cleanup
+= 1.0 =
+* Released: December
 
-= 0.1 =
-* Initial development release
-* Includes baseline templates, patterns, and theme.json
+https://wordpress.org/support/article/twenty-twenty-two-changelog#Version_1.0
 
 == Copyright ==
 
@@ -45,7 +44,7 @@ Copyright 2014-2021 Adobe (http://www.adobe.com/)
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/adobe-fonts/source-serif
 
-Block Pattern Images: 
+Block Pattern Images:
 
 "White Bellied Flycatcher" illustrated by Elizabeth Gould. Public Domain.
 https://www.rawpixel.com/image/321474/free-illustration-image-bird-vintage-birds

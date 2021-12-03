@@ -39,7 +39,7 @@ return array(
 					<!-- /wp:group -->
 
 					<!-- wp:image {"align":"full","style":{"color":{}}} -->
-					<figure class="wp-block-image alignfull"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/flight-path-on-transparent-a.png" alt="' . esc_attr__( 'An illustration of a bird in flight', 'twentytwentytwo' ) . '"/></figure>
+					<figure class="wp-block-image alignfull"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/flight-path-on-transparent-a.png" alt="' . esc_attr__( 'An illustration of a bird in flight', 'twentytwentytwo' ) . '"/></figure>
 					<!-- /wp:image -->
 					
 					<!-- wp:group {"align":"full","layout":{"inherit":true},"style":{"spacing":{"padding":{"left":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)"}}}} -->
@@ -56,7 +56,7 @@ return array(
 					
 					<!-- wp:column {"width":"66.66%"} -->
 					<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:video {"id":181} -->
-					<figure class="wp-block-video"><video controls src="' . esc_url( get_theme_file_uri() ) . '/assets/videos/birds.mp4"></video></figure>
+					<figure class="wp-block-video"><video controls src="' . esc_url( get_template_directory_uri() ) . '/assets/videos/birds.mp4"></video></figure>
 					<!-- /wp:video --></div>
 					<!-- /wp:column --></div>
 					<!-- /wp:columns --></div>

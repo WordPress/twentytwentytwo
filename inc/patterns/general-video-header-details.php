@@ -16,7 +16,7 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:video {"align":"wide"} -->
-					<figure class="wp-block-video alignwide"><video controls src="' . esc_url( get_theme_file_uri() ) . '/assets/videos/birds.mp4"></video></figure>
+					<figure class="wp-block-video alignwide"><video controls src="' . esc_url( get_template_directory_uri() ) . '/assets/videos/birds.mp4"></video></figure>
 					<!-- /wp:video -->
 
 					<!-- wp:spacer {"height":32} -->

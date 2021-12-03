@@ -19,7 +19,7 @@ return array(
 
 				<!-- wp:column {"width":"66.66%"} -->
 				<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:video -->
-				<figure class="wp-block-video"><video controls src="' . esc_url( get_template_directory_uri() ) . '/assets/videos/birds.mp4"></video></figure>
+				<figure class="wp-block-video"><video controls src="' . esc_url( get_theme_file_uri() ) . '/assets/videos/birds.mp4"></video></figure>
 				<!-- /wp:video --></div>
 				<!-- /wp:column --></div>
 				<!-- /wp:columns --></div>

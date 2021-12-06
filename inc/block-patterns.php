@@ -124,7 +124,7 @@ function twentytwentytwo_register_block_patterns() {
 
 		register_block_pattern(
 			'twentytwentytwo/' . $block_pattern,
-			require $pattern_file 
+			require $pattern_file
 		);
 	}
 }

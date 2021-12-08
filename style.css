@@ -48,7 +48,8 @@ a:active {
 	text-decoration: none;
 }
 
-.wp-block-navigation .wp-block-navigation-item a:hover {
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
 	text-decoration: underline;
 	text-decoration-style: solid;
 }

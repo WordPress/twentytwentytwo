@@ -12,11 +12,11 @@
  */
 function twentytwentytwo_register_block_patterns() {
 	$block_pattern_categories = array(
-		'twentytwentytwo-general' => array( 'label' => __( 'Twenty Twenty-Two General', 'twentytwentytwo' ) ),
-		'twentytwentytwo-footers' => array( 'label' => __( 'Twenty Twenty-Two Footers', 'twentytwentytwo' ) ),
-		'twentytwentytwo-headers' => array( 'label' => __( 'Twenty Twenty-Two Headers', 'twentytwentytwo' ) ),
-		'twentytwentytwo-query'   => array( 'label' => __( 'Twenty Twenty-Two Posts', 'twentytwentytwo' ) ),
-		'twentytwentytwo-pages'   => array( 'label' => __( 'Twenty Twenty-Two Pages', 'twentytwentytwo' ) ),
+		'general' => array( 'label' => __( 'General', 'twentytwentytwo' ) ),
+		'footers' => array( 'label' => __( 'Footers', 'twentytwentytwo' ) ),
+		'headers' => array( 'label' => __( 'Headers', 'twentytwentytwo' ) ),
+		'query'   => array( 'label' => __( 'Query', 'twentytwentytwo' ) ),
+		'pages'   => array( 'label' => __( 'Pages', 'twentytwentytwo' ) ),
 	);
 
 	/**
@@ -37,7 +37,9 @@ function twentytwentytwo_register_block_patterns() {
 	$block_pattern_categories = apply_filters( 'twentytwentytwo_block_pattern_categories', $block_pattern_categories );
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
-		register_block_pattern_category( $name, $properties );
+		if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
+			register_block_pattern_category( $name, $properties );
+		}
 	}
 
 	$block_patterns = array(

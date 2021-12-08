@@ -4,7 +4,7 @@
  */
 return array(
 	'title'      => __( 'Poster with right sidebar', 'twentytwentytwo' ),
-	'categories' => array( 'twentytwentytwo-pages' ),
+	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"left":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-right:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"5%"}}} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column {"width":"70%"} -->

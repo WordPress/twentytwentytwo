@@ -120,9 +120,11 @@ function twentytwentytwo_register_block_patterns() {
 	$block_patterns = apply_filters( 'twentytwentytwo_block_patterns', $block_patterns );
 
 	foreach ( $block_patterns as $block_pattern ) {
+		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
+
 		register_block_pattern(
 			'twentytwentytwo/' . $block_pattern,
-			require __DIR__ . '/patterns/' . $block_pattern . '.php'
+			require $pattern_file
 		);
 	}
 }

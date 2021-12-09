@@ -4,7 +4,7 @@
  */
 return array(
 	'title'      => __( 'Pricing table', 'twentytwentytwo' ),
-	'categories' => array( 'general' ),
+	'categories' => array( 'general', 'columns', 'buttons' ),
 	'content'    => '<!-- wp:columns {"align":"wide"} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:separator {"className":"is-style-wide"} -->

@@ -78,6 +78,15 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 		// Add styles inline.
 		wp_add_inline_style( 'wp-block-library', twentytwentytwo_get_font_face_styles() );
 
+		// Apply padding only to content in the post editor.
+		// Needed until https://github.com/WordPress/gutenberg/pull/36214 is merged.
+		wp_add_inline_style(
+			'wp-block-library',
+			'.editor-styles-wrapper > .edit-post-visual-editor__post-title-wrapper, 
+			.editor-styles-wrapper > .edit-post-visual-editor__post-title-wrapper + .block-editor-block-list__layout {
+			padding: 0 var(--wp--custom--spacing--small, 1.25rem);
+		}'
+		);
 	}
 
 endif;

@@ -4,7 +4,7 @@
  */
 return array(
 	'title'      => __( 'Subscribe callout', 'twentytwentytwo' ),
-	'categories' => array( 'general' ),
+	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 					<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->

@@ -4,7 +4,7 @@
  */
 return array(
 	'title'      => __( 'Featured posts', 'twentytwentytwo' ),
-	'categories' => array( 'general' ),
+	'categories' => array( 'featured' ),
 	'content'    => '<!-- wp:group {"align":"wide","layout":{"inherit":false}} -->
 					<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
 					<p style="text-transform:uppercase">' . esc_html__( 'Latest posts', 'twentytwentytwo' ) . '</p>

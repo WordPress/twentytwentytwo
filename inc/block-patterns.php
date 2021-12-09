@@ -15,7 +15,7 @@ function twentytwentytwo_register_block_patterns() {
 		'featured' => array( 'label' => __( 'Featured', 'twentytwentytwo' ) ),
 		'footer' => array( 'label' => __( 'Footers', 'twentytwentytwo' ) ),
 		'header' => array( 'label' => __( 'Headers', 'twentytwentytwo' ) ),
-		'query'   => array( 'label' => __( 'Query', 'twentytwentytwo' ) ),
+		'posts'   => array( 'label' => __( 'Posts', 'twentytwentytwo' ) ),
 		'pages'   => array( 'label' => __( 'Pages', 'twentytwentytwo' ) ),
 	);
 

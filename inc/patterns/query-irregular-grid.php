@@ -4,7 +4,7 @@
  */
 return array(
 	'title'      => __( 'Irregular grid of posts', 'twentytwentytwo' ),
-	'categories' => array( 'query' ),
+	'categories' => array( 'posts' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:group {"align":"wide"} -->
 					<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->

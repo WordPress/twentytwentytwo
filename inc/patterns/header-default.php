@@ -1,9 +1,9 @@
 <?php
 /**
- * Default Header block pattern
+ * Default header block pattern
  */
 return array(
-	'title'      => __( 'Default Header', 'twentytwentytwo' ),
+	'title'      => __( 'Default header', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"8rem","top":"max(1.25rem, 5vw)"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -14,7 +14,7 @@ return array(
 					<!-- wp:site-title {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} /--></div>
 					<!-- /wp:group -->
 
-					<!-- wp:navigation {"itemsJustification":"right","isResponsive":true} -->
+					<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
 					<!-- wp:page-list {"isNavigationChild":true,"showSubmenuIcon":true,"openSubmenusOnClick":false} /-->
 					<!-- /wp:navigation --></div>
 					<!-- /wp:group -->',

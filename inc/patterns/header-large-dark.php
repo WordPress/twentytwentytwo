@@ -1,9 +1,9 @@
 <?php
 /**
- * Large Header block pattern
+ * Large header with dark background block pattern
  */
 return array(
-	'title'      => __( 'Large Header', 'twentytwentytwo' ),
+	'title'      => __( 'Large header with dark background', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-headers' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"0px","bottom":"8rem","right":"0px","left":"0px"},"margin":{"bottom":"8rem"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
@@ -15,7 +15,7 @@ return array(
 					<!-- wp:site-title {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} /--></div>
 					<!-- /wp:group -->
 
-					<!-- wp:navigation {"itemsJustification":"right","isResponsive":true} -->
+					<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->
 					<!-- wp:page-list /-->
 					<!-- /wp:navigation --></div>
 					<!-- /wp:group -->
@@ -26,7 +26,7 @@ return array(
 					<!-- /wp:group -->
 
 					<!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/images/flight-path-on-transparent-c.png" alt="' . esc_attr__( 'Illustration of a bird flying.', 'twentytwentytwo' ) . '"/></figure>
+					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/flight-path-on-transparent-c.png" alt="' . esc_attr__( 'Illustration of a bird flying.', 'twentytwentytwo' ) . '"/></figure>
 					<!-- /wp:image --></div>
 					<!-- /wp:group -->',
 );

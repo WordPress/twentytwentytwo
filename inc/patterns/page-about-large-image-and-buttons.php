@@ -1,13 +1,13 @@
 <?php
 /**
- * About page with big image and buttons
+ * About page with large image and buttons
  */
 return array(
-	'title'      => __( 'About page with big image and buttons', 'twentytwentytwo' ),
+	'title'      => __( 'About page with large image and buttons', 'twentytwentytwo' ),
 	'categories' => array( 'twentytwentytwo-pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"max(1.25rem, 5vw)","right":"max(1.25rem, 5vw)","bottom":"max(1.25rem, 5vw)","left":"max(1.25rem, 5vw)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:max(1.25rem, 5vw);padding-right:max(1.25rem, 5vw);padding-bottom:max(1.25rem, 5vw);padding-left:max(1.25rem, 5vw)"><!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_stylesheet_directory_uri() ) . '/assets/images/flight-path-on-gray-b.jpg" alt=""/></figure>
+					<figure class="wp-block-image alignfull size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/flight-path-on-gray-b.jpg" alt=""/></figure>
 					<!-- /wp:image -->
 
 					<!-- wp:columns {"align":"full"} -->

@@ -13,8 +13,8 @@
 function twentytwentytwo_register_block_patterns() {
 	$block_pattern_categories = array(
 		'general' => array( 'label' => __( 'General', 'twentytwentytwo' ) ),
-		'footers' => array( 'label' => __( 'Footers', 'twentytwentytwo' ) ),
-		'headers' => array( 'label' => __( 'Headers', 'twentytwentytwo' ) ),
+		'footer' => array( 'label' => __( 'Footers', 'twentytwentytwo' ) ),
+		'header' => array( 'label' => __( 'Headers', 'twentytwentytwo' ) ),
 		'query'   => array( 'label' => __( 'Query', 'twentytwentytwo' ) ),
 		'pages'   => array( 'label' => __( 'Pages', 'twentytwentytwo' ) ),
 	);

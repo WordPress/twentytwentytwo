@@ -89,7 +89,8 @@ a:active {
  */
 
 .wp-site-blocks,
-.is-root-container {
+.is-root-container,
+.edit-post-visual-editor__post-title-wrapper {
 	padding-left: var(--wp--custom--spacing--outer);
 	padding-right: var(--wp--custom--spacing--outer);
 }

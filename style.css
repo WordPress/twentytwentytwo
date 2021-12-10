@@ -82,3 +82,29 @@ a:active {
 .wp-block-button__link:hover {
 	opacity: 0.90;
 } 
+
+/*
+ * Alignment styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ */
+
+.wp-site-blocks,
+.is-root-container {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+.wp-site-blocks .alignfull.wp-block-template-part,
+.wp-site-blocks .alignfull.wp-block-columns,
+.wp-site-blocks .alignfull.wp-block-group,
+.is-root-container .wp-block[data-align="full"] .wp-block-group {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}

@@ -24,7 +24,7 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:site-title /-->
+					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:site-title {"level":0} /-->
 					<!-- wp:group {"layout":{"type":"flex","justifyContent":"right"}} -->
 					<div class="wp-block-group">
 					<!-- wp:paragraph -->

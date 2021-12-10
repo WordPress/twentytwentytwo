@@ -21,7 +21,7 @@ return array(
 					<div style="height:180px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:site-title /--></div>
+					<!-- wp:site-title {"level":0} /--></div>
 					<!-- /wp:column -->
 
 					<!-- wp:column {"verticalAlignment":"bottom"} -->

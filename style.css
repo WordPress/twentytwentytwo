@@ -101,11 +101,3 @@ a:active {
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	width: unset;
 }
-
-.wp-site-blocks .alignfull.wp-block-template-part,
-.wp-site-blocks .alignfull.wp-block-columns,
-.wp-site-blocks .alignfull.wp-block-group,
-.is-root-container .wp-block[data-align="full"] .wp-block-group {
-	padding-left: var(--wp--custom--spacing--outer);
-	padding-right: var(--wp--custom--spacing--outer);
-}

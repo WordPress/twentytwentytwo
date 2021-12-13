@@ -101,3 +101,10 @@ a:active {
 	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
 	width: unset;
 }
+
+/* this resets the negative margins only when we have more than 1 column */
+.wp-site-blocks .wp-block-columns .wp-block-column:not(:first-child:nth-last-child(1)) .alignfull {
+	margin-left: inherit !important;
+	margin-right: inherit !important;
+	width: inherit;
+}

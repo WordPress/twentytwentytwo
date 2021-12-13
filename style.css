@@ -105,7 +105,8 @@ a:active {
 }
 
 /* blocks inside columns don't have negative margins */
-.wp-site-blocks .wp-block-columns .wp-block-column .alignfull {
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"] {
 	margin-left: inherit !important;
 	margin-right: inherit !important;
 	width: inherit;

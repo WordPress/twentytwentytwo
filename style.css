@@ -102,8 +102,8 @@ a:active {
 	width: unset;
 }
 
-/* this resets the negative margins only when we have more than 1 column */
-.wp-site-blocks .wp-block-columns .wp-block-column:not(:first-child:nth-last-child(1)) .alignfull {
+/* blocks inside columns don't have negative margins */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull {
 	margin-left: inherit !important;
 	margin-right: inherit !important;
 	width: inherit;

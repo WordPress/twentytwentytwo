@@ -62,7 +62,7 @@ return array(
 					<div style="height:4px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:site-title {"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","lineHeight":"1.2"}},"fontSize":"medium","fontFamily":"source-serif-pro"} /-->
+					<!-- wp:site-title {"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","lineHeight":"1.2"}},"fontSize":"large","fontFamily":"source-serif-pro"} /-->
 
 					<!-- wp:site-tagline /-->
 
@@ -70,14 +70,14 @@ return array(
 					<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:heading {"level":4,"fontSize":"medium"} -->
-					<h4 class="has-medium-font-size"><em>' . esc_html__( 'Categories', 'twentytwentytwo' ) . '</em></h4>
+					<!-- wp:heading {"level":4,"fontSize":"large"} -->
+					<h4 class="has-large-font-size"><em>' . esc_html__( 'Categories', 'twentytwentytwo' ) . '</em></h4>
 					<!-- /wp:heading -->
 
 					<!-- wp:tag-cloud {"taxonomy":"category","showTagCounts":true} /-->
 
-					<!-- wp:heading {"level":4,"fontSize":"medium"} -->
-					<h4 class="has-medium-font-size"><em>' . esc_html__( 'Tags', 'twentytwentytwo' ) . '</em></h4>
+					<!-- wp:heading {"level":4,"fontSize":"large"} -->
+					<h4 class="has-large-font-size"><em>' . esc_html__( 'Tags', 'twentytwentytwo' ) . '</em></h4>
 					<!-- /wp:heading -->
 
 					<!-- wp:tag-cloud {"showTagCounts":true} /--></div>

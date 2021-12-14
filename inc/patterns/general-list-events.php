@@ -27,8 +27,8 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"verticalAlignment":"center"} -->
-					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"large"} -->
-					<h2 class="has-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Jesús Rodriguez', 'twentytwentytwo' ) . '</h2>
+					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
+					<h2 class="has-x-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Jesús Rodriguez', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading --></div>
 					<!-- /wp:column -->
 
@@ -51,8 +51,8 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"verticalAlignment":"center"} -->
-					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"large"} -->
-					<h2 class="has-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Doug Stilton', 'twentytwentytwo' ) . '</h2>
+					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
+					<h2 class="has-x-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Doug Stilton', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading --></div>
 					<!-- /wp:column -->
 
@@ -75,8 +75,8 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"verticalAlignment":"center"} -->
-					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"large"} -->
-					<h2 class="has-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Amy Jensen', 'twentytwentytwo' ) . '</h2>
+					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
+					<h2 class="has-x-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Amy Jensen', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading --></div>
 					<!-- /wp:column -->
 
@@ -99,8 +99,8 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"verticalAlignment":"center"} -->
-					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"large"} -->
-					<h2 class="has-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Emery Driscoll', 'twentytwentytwo' ) . '</h2>
+					<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
+					<h2 class="has-x-large-font-size" id="jesus-rodriguez">' . esc_html__( 'Emery Driscoll', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading --></div>
 					<!-- /wp:column -->
 

@@ -97,8 +97,9 @@ a:active {
 
 .wp-site-blocks,
 .is-root-container,
-.wp-block-group:where(.has-background),
-.edit-post-visual-editor__post-title-wrapper {
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group {
 	padding-left: var(--wp--custom--spacing--outer);
 	padding-right: var(--wp--custom--spacing--outer);
 }
@@ -114,8 +115,8 @@ a:active {
 .wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
 .is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
 /* we also want to avoid stacking negative margins */
-.wp-site-blocks .alignfull .alignfull,
-.is-root-container .wp-block[data-align="full"] .wp-block[data-align="full"] {
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
 	margin-left: auto !important;
 	margin-right: auto !important;
 	width: inherit;

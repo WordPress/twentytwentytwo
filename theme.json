@@ -220,7 +220,7 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--typography--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"core/post-title": {

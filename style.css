@@ -67,7 +67,7 @@ a:active {
 	border-radius: 0;
 	border: none;
 	color: var(--wp--preset--color--background);
-	font-size: var(--wp--preset--typography--font-size--medium);
+	font-size: var(--wp--preset--font-size--medium);
 	padding: calc(.667em + 2px) calc(1.333em + 2px);
 }
 

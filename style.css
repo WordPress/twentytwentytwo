@@ -85,7 +85,12 @@ a:active {
 
 /*
  * Alignment styles.
- * Necessary until the following issues are resolved in Gutenberg:
+ * These rules are temporary, and should not be relied on or 
+ * modified too heavily by themes or plugins that build on 
+ * Twenty Twenty-Two. These are meant to be a precursor to 
+ * a global solution provided by the Block Editor. 
+ * 
+ * Relevant issues:
  * https://github.com/WordPress/gutenberg/issues/35607
  * https://github.com/WordPress/gutenberg/issues/35884
  */

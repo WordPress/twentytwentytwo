@@ -224,7 +224,7 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--typography--font-size--normal)"
+					"fontSize": "var(--wp--preset--font-size--normal)"
 				}
 			},
 			"core/post-title": {

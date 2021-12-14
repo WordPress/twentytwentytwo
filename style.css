@@ -96,7 +96,8 @@ a:active {
  */
 
 .wp-site-blocks,
-.is-root-container,
+.edit-site-block-editor__block-list,
+.block-editor-block-list__layout,
 .edit-post-visual-editor__post-title-wrapper,
 .wp-block-group.alignfull,
 .is-root-container .wp-block[data-align="full"] > .wp-block-group {
@@ -113,10 +114,12 @@ a:active {
 
 /* Blocks inside columns don't have negative margins. */
 .wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
-.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+.edit-site-block-editor__block-list .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+.block-editor-block-list__layout .wp-block-columns .wp-block-column .wp-block[data-align="full"],
 /* We also want to avoid stacking negative margins. */
 .wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
-.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+.edit-site-block-editor__block-list .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"],
+.block-editor-block-list__layout .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
 	margin-left: auto !important;
 	margin-right: auto !important;
 	width: inherit;

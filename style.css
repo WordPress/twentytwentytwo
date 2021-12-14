@@ -96,7 +96,7 @@ a:active {
  */
 
 .wp-site-blocks,
-.is-root-container,
+body > .is-root-container,
 .edit-post-visual-editor__post-title-wrapper,
 .wp-block-group.alignfull,
 .is-root-container .wp-block[data-align="full"] > .wp-block-group {

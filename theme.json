@@ -183,22 +183,18 @@
 			],
 			"fontSizes": [
 				{
-					"name": "Small",
 					"size": "1rem",
 					"slug": "small"
 				},
 				{
-					"name": "Medium",
 					"size": "1.125rem",
 					"slug": "medium"
 				},
 				{
-					"name": "Large",
 					"size": "1.75rem",
 					"slug": "large"
 				},
 				{
-					"name": "Extra Large",
 					"size": "clamp(1.75rem, 3vw, 2.25rem)",
 					"slug": "x-large"
 				}

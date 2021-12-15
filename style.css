@@ -121,3 +121,16 @@ body > .is-root-container,
 	margin-right: auto !important;
 	width: inherit;
 }
+
+/*
+ * Responsive menu container padding.
+ * This gives the responsive container the same padding as the site itself.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+

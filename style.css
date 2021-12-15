@@ -124,7 +124,9 @@ body > .is-root-container,
 
 /*
  * Responsive menu container padding.
- * This gives the responsive container the same padding as the site itself.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
  */
 
 .wp-block-navigation__responsive-container.is-menu-open {

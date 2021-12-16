@@ -37,7 +37,7 @@ function twentytwentytwo_upgrade_notice() {
 	echo '<div class="error"><p>';
 	printf(
 	/* translators: %s: WordPress Version. */
-		esc_html__( 'This theme requires WordPress 5.8 or newer. You are running version %s. Please upgrade.', 'twentytwentyone' ),
+		esc_html__( 'This theme requires WordPress 5.8 or newer. You are running version %s. Please upgrade.', 'twentytwentytwo' ),
 		esc_html( $GLOBALS['wp_version'] )
 	);
 	echo '</p></div>';
@@ -56,7 +56,7 @@ function twentytwentytwo_customize() {
 	wp_die(
 		sprintf(
 		/* translators: %s: WordPress Version. */
-			esc_html__( 'This theme requires WordPress 5.8 or newer. You are running version %s. Please upgrade.', 'twentytwentyone' ),
+			esc_html__( 'This theme requires WordPress 5.8 or newer. You are running version %s. Please upgrade.', 'twentytwentytwo' ),
 			esc_html( $GLOBALS['wp_version'] )
 		),
 		'',
@@ -81,7 +81,7 @@ function twentytwentytwo_preview() {
 		wp_die(
 			sprintf(
 			/* translators: %s: WordPress Version. */
-				esc_html__( 'This theme requires WordPress 5.8 or newer. You are running version %s. Please upgrade.', 'twentytwentyone' ),
+				esc_html__( 'This theme requires WordPress 5.8 or newer. You are running version %s. Please upgrade.', 'twentytwentytwo' ),
 				esc_html( $GLOBALS['wp_version'] )
 			)
 		);

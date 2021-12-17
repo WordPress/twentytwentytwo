@@ -6,4 +6,5 @@ includes:
 parameters:
 	level: max
 	paths:
+		- functions.php
 		- inc/

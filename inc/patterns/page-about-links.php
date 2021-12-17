@@ -13,8 +13,8 @@ return array(
 					<!-- wp:group -->
 					<div class="wp-block-group">
 
-					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"var(--wp--custom--typography--font-size--huge, clamp(2.5rem, 4vw, 3rem))"}}} -->
-					<h2 class="has-text-align-center" style="font-size:var(--wp--custom--typography--font-size--huge, clamp(2.5rem, 4vw, 3rem))">' . esc_html__( 'Swoop', 'twentytwentytwo' ) . '</h2>
+					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"var(--wp--custom--typography--font-size--huge, clamp(2.25rem, 4vw, 2.75rem))"}}} -->
+					<h2 class="has-text-align-center" style="font-size:var(--wp--custom--typography--font-size--huge, clamp(2.25rem, 4vw, 2.75rem))">' . esc_html__( 'Swoop', 'twentytwentytwo' ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"align":"center"} -->

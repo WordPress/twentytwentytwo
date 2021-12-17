@@ -12,7 +12,7 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--typography--font-size--gigantic, clamp(2.75rem, 6vw, 3.25rem))","lineHeight":"0.5"}}} -->
-					<h2 id="1" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:0.5">' . esc_html( _x( '1', 'First item in a numbered list.', 'twentytwentytwo' ) ) . '</h2>
+					<h2 id="1" style="font-size:var(--wp--custom--typography--font-size--gigantic, clamp(2.75rem, 6vw, 3.25rem));line-height:0.5">' . esc_html( _x( '1', 'First item in a numbered list.', 'twentytwentytwo' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"level":3,"fontSize":"x-large"} -->

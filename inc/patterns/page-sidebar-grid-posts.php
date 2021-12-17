@@ -48,7 +48,7 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"width":"70%"} -->
-					<div class="wp-block-column" style="flex-basis:70%"><!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false,"perPage":12},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true}} -->
+					<div class="wp-block-column" style="flex-basis:70%"><!-- wp:query {"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":false,"perPage":6},"displayLayout":{"type":"flex","columns":3},"layout":{"inherit":true}} -->
 					<div class="wp-block-query"><!-- wp:post-template -->
 					<!-- wp:post-featured-image {"isLink":true,"width":"100%","height":"200px"} /-->
 

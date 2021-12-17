@@ -44,7 +44,7 @@ return array(
 					<!-- /wp:column -->
 
 					<!-- wp:column {"width":"66.66%"} -->
-					<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:query {"query":{"perPage":"5","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"inherit":true}} -->
+					<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:query {"query":{"perPage":"3","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"inherit":true}} -->
 					<div class="wp-block-query"><!-- wp:post-template -->
 					<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0","bottom":"1rem"}},"typography":{"fontStyle":"normal","fontWeight":"300"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"huge"} /-->
 

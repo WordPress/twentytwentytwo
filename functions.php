@@ -9,6 +9,10 @@
  * @since Twenty Twenty-Two 1.0
  */
 
+// This theme requires WordPress 5.8 or later.
+if ( version_compare( $GLOBALS['wp_version'], '5.8', '<' ) ) {
+	require get_template_directory() . '/inc/back-compat.php';
+}
 
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 

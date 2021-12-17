@@ -41,7 +41,7 @@ return array(
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>' . esc_html__( 'February, 12 2021', 'twentytwentytwo' ) . '</p>
+					<p>' . esc_html__( 'January, 25 2022', 'twentytwentytwo' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:spacer {"height":16} -->

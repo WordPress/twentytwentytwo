@@ -18,9 +18,7 @@ Whether you’re building a single-page website, a blog, a business website, or 
 == Changelog ==
 
 = 1.0 =
-* Released: December
-
-https://wordpress.org/support/article/twenty-twenty-two-changelog#Version_1.0
+* Released: January 25, 2022
 
 == Copyright ==
 

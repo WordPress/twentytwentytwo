@@ -1,0 +1,34 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#2E2927",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "primary",
+					"color": "#7C290F",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#FCF5ED",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#FCF5ED",
+					"name": "Tertiary"
+				}
+			]
+		}
+	}
+}

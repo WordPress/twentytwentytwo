@@ -61,6 +61,10 @@
 					"duotone": "var(--wp--preset--duotone--default-filter)"
 				}
 			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
 		}
 	}
 }

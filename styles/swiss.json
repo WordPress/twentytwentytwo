@@ -67,6 +67,10 @@
 				}
 			}
 		},
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
+		},
 		"elements": {
 			"h1": {
 				"typography": {

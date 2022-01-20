@@ -51,7 +51,7 @@ You can install the test-specific development dependencies by running `npm i && 
 - `composer run analyze [filename.php]` statically analyzes PHP for bugs
 - `composer run lint` checks PHP for syntax errors
 - `composer run standards:check` checks PHP for standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/)
-- `composer run standards:fix` attemps to automatically fix errors
+- `composer run standards:fix` attempts to automatically fix errors
 
 ## Resources
 

@@ -27,6 +27,14 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 
+		// Add a menu location.
+		// Used only for migrating over classic menus.
+		register_nav_menus(
+			array(
+				'primary' => esc_html__( 'Primary menu', 'twentytwentytwo' ),
+			)
+		);
+
 	}
 
 endif;

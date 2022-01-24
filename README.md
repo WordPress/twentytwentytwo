@@ -1,3 +1,11 @@
+**This theme has been merged into the WordPress Core SVN repository, and is no longer maintained on GitHub.**
+
+**Please report all new bugs of reature requests on Trac: https://core.trac.wordpress.org/newticket.**
+
+**Browse open issues: https://core.trac.wordpress.org/search?q=twenty+twenty-two.**
+
+---
+
 # Twenty Twenty-Two
 
 Welcome to the development repository for the default theme that will launch with WordPress 5.9.
